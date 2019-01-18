@@ -1,0 +1,10 @@
+Aktifitas kemarin :
+	- membuat tabel
+	- belajar git
+
+Kendala  :
+	- kurang fokus dalam menganalisa soal
+	- sering menjumpai permasaalahan saat akan meng push hasil kerja
+
+Aktifitas hari ini :
+	- mempelajari kombinasi dalam tabel
