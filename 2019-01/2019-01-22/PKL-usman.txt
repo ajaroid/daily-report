@@ -1,0 +1,9 @@
+Report hari ini:
+
+Kegiatan :
+	- Belajar basic HTML
+	- Belajar basic CSS
+
+Kendala :
+	- Belum paham sebagian besar fungsi masing masing tag
+	- kebingungan menentukan selctor yang harus di option
