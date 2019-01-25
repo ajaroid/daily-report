@@ -1,0 +1,7 @@
+Aktivitas Hari Ini	:
+		-Melanjutkan membuat website yang sudah dipilih.
+
+Kendala		:
+		-Bingung dan kesusahan mengatur tampilan karena kebanyakan memakai javascript dan saya
+		belum bisa untuk javascript.
+		-Kemudian juga kesulitan mengatur tampilan atau syle CSSnya karena juga belum memahami CSS
