@@ -1,0 +1,13 @@
+report 24/01/2019
+
+
+	~ mencari website yang akan ditiru tampilan nya
+	~ mencari referensi css
+	~ mencoba inspect pada laman web
+	~ merancang bertahap tamplan websit yang dipilih
+
+
+	- website terpilih
+		+ watch cartoon online , link = http://watchcartoonsonline.tv/
+		+ liputan 6, link = https://www.liputan6.com/
+		+ apkpure, link = https://apkpure.com/id/
