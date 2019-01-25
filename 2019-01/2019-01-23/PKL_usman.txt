@@ -1,0 +1,8 @@
+Report hari ini:
+
+	~ Membuat tampilan website
+	~ Belajar box sizing
+
+Kendala :
+	
+	~ Belum menumukan masalah karena belum mencoba
