@@ -1,0 +1,10 @@
+Report 24/01/2019
+
+	-Mencari website yang akan dibuat.
+	-Dan membuat website seperti yang saya pilih.
+	-Website pertama yang akan saya contoh https://www.bukalapak.com/?blca=SEBRA-BR-GEN-D-s&blpt=SEBRA-BR-GEN-D-s&gclid=EAIaIQobChMIt7aVtq6F4AIVjeiaCh2gzAbPEAAYASAAEgLT8_D_BwE&sem=65884349968_1t1_1597133973_c_9072650_g_aud-550125406690%3Akwd-48053501828
+
+Kendala	:
+	-Kesulitan membuat tampilan website seperti yang saya pilih karena kebanyakan bahasanya menggunakan javascript
+	,bootstrap juga php.
+	-Sedangkan saya HTML dan CSS belum sangat menguasai sepenuhnya
