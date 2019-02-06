@@ -1,0 +1,7 @@
+2019-02-06
+Aktivitas Hari Ini	:
+		-Menerusakan website kemarin yang belum terbuat persis.
+		-Mempelajari lagi HTML dan CSS di W3Schools.
+
+Kendala		:
+		-Kesulitan karna kebanyakan memakai bootstrap dan javascript yang belum saya kuasai.
