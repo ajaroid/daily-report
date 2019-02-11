@@ -1,0 +1,6 @@
+07-02-2019
+Aktivitas Hari Ini	:
+		-Menambahkan gambar seperti website yang saya tirukan,
+
+Kendala		:
+		-Setiap saya tambahka gambar ada kesalahan posisi di layout.
