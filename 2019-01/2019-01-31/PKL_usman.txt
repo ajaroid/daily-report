@@ -1,0 +1,10 @@
+report 31/01/2019
+
+Kegiatan 
+
+	~ Mengubah navigasi tabel menjadi Unordered list
+	~ Latihan mengetik 10 jari
+
+Trouble
+
+	~ masih seputar css

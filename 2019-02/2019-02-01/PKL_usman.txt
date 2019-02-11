@@ -1,0 +1,10 @@
+report 01/02/2019
+
+Kegiatan 
+
+	~ Memrancang navigasi bar pada project
+	~ Latihan mengetik 10 jari
+
+Trouble
+
+	~ seringnya menjumpain kesalahan dalam menggunakan class

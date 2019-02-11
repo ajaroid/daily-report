@@ -1,0 +1,10 @@
+report 30/01/2019
+
+Kegiatan 
+
+	~ penerapan tabel sebagai navigation bar
+	~ Latihan mengetik 10 jari
+
+Trouble
+
+	~ kebingungan dalam pengaturan css tabel

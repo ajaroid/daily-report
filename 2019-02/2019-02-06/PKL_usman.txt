@@ -1,0 +1,11 @@
+report 06/02/2019
+
+Kegiatan 
+
+	~ membuat kolom search
+	~ mempelajari grid position
+	~ Latihan mengetik 10 jari
+
+Trouble
+
+	~ kesalah pahaman dalam memahami konteks grid
