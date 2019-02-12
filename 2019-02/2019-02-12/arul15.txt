@@ -1,0 +1,9 @@
+2019-02-12
+Aktivitas Hari Ini	:
+		-Menambahkan gambar dan tulisan di layout website.
+		-Membackup file yang saya buat untuk mencoba-coba lagi.
+		Agar lebih mirip seprti website yang saya buat.
+
+Kendala		:
+		-Mungkin kedepannya saya harus mempelajari CSS Box Model dan JavaScript.
+		Karena website yang saya buat dan tirukan itu menggunakan bahasa keduanya trsebut.
