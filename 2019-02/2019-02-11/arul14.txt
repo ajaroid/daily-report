@@ -1,0 +1,8 @@
+2019-02-11
+Aktivitas Hari Ini	:
+		-Menambahkan gambar dilayout.
+		-Membenarkan header.
+
+Kendala		:
+		-Kemungkinan website yang saya buat numpuk2 elementnya,jadi
+		kendalanya mungkin ada di box model tersebut.
