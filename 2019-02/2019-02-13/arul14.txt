@@ -1,0 +1,8 @@
+13-02-2019
+Aktivitas Hari Ini	:
+		-Meneruskan layout yang belum selesai dibuat.
+		-Mempelajari tentang position pada CSS.
+
+Kendala		:
+		-Pengaturan position yang saya buat itu kemungkinan terlalu banyak dan tidak efektif,
+		karena saya masih pakai Top,Left,Bottom.
