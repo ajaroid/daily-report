@@ -1,0 +1,9 @@
+14-02-2019
+Aktivitas Hari Ini	:
+		-Meneruskan layout yang belum selesai dibuat dan belajar lebih efektif
+		dalam pemakaian element position.
+
+Kendala		:
+		-Belum mempelajari tntang pengaturan position yang lebih efektif jadi
+		hanya bisa yang Top,Left,Bottom seperti itu.
+		-Kedepannya harus lebih giat dan semangat lagi.
