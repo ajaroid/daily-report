@@ -1,0 +1,8 @@
+15-02-2019
+Aktivitas Hari Ini	:
+		-Melanjutkan membuat layout website dan membenarkan kesalahan yang ada.
+		-Membaca-baca mengenai display,float di w3Schools dan youtube.
+
+Kendala		:
+		-Menjumpai kesalahan pada saat mengatur box model,
+		juga gambar2 dan peletakan element di Coding.
