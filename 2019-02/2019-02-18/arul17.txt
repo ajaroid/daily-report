@@ -1,0 +1,9 @@
+18-02-2019
+Aktivitas Hari Ini	:
+		-Membuat layout website kedua yang saya pilih.
+		-Ini link website yang saya tirukan https://www.facebook.com/
+
+Kendala		:
+		-Masih kurang menguasai tentang pembagian pembungkus/div.
+		-Dan juga terkadang membuat saya kebingungan akan pembagian tersebut.
+		-Tapi saya berusaha terus melakukan yang terbaik.
