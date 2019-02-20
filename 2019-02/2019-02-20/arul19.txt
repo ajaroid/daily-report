@@ -1,0 +1,8 @@
+20-02-2019
+Aktivitas Hari Ini	:
+		-Mereview tampilan web yang saya buat.
+		-Membackup file yang asli dan saya otak-atik kembali.
+
+Kendala		:
+		-Mungkin karena belum semuanya saya pahami jadi div/pembungkusnya
+		masih tumpuk-tumpukan.
