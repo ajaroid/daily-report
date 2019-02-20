@@ -1,0 +1,7 @@
+19-02-2019
+Aktivitas Hari Ini	:
+		-Melanjutkan pembuatan tampilan website kedua yang saya pilih.
+
+Kendala		:
+		-Kendalanya yaitu ada di pembagian div/pembungkusnya yang masih saya bingungi
+		dan belum saya pahami.
