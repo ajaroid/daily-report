@@ -1,0 +1,7 @@
+21-02-2019
+Aktivitas Hari Ini	:
+		-Melanjutkan membuat tampilan layout website.
+
+Kendala		:
+		-Sebenarnya sudah mirip tetapi terjadi kesalahan saat memberikan div,div nya dibawah kemudian elementnya
+		terletak diatas.
