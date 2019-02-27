@@ -1,0 +1,8 @@
+27-02-2019
+Aktivitas Hari Ini	:
+		-Membuat tampilan website ke-3.
+		-Ini link yang saya tirukan layout websitenya https://twitter.com/login?lang=en
+
+Kendala		:
+		-Terjadi kebingungan lagi pada pembungkus dan pembagian div.
+		Karena baru kali ini saya tau dan belajar.
