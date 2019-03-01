@@ -1,0 +1,7 @@
+01-03-2019
+Aktivitas Hari Ini	:
+		-Mereview web ketiga yang saya buat.
+		-Baca artikel2 tentang git dan git bash.
+Kendala		:
+		-Kendalanya bingung,karena saya belum terlalu paham dan sebelumnya
+		tidak tahu tentang git dan git bash.
