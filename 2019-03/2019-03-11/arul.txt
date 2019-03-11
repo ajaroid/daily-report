@@ -1,0 +1,7 @@
+Aktivitas Hari Ini	:
+		-Melanjutkan website pertama yaitu Bukalapak yang belum selesai.
+
+Kendala		:
+		-Kesulitan membuat seperti tabel yang bagian awal.
+		-Kendala kedua yaitu pas mau ngambil gambar bagian bawah website tidak bisa
+		karena hanya ada di laptop si pengembang web bukalapaknya.
