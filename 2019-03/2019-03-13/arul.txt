@@ -1,0 +1,8 @@
+Aktivitas Hari Ini	:
+		-Membuat bagian bawah tetapi belum sampai yang footer.
+
+Kendala		:
+		-Disaat pengambilan gambar,saya pengennya cuma satu gambar tapi keambilnya
+		bbrp gambar yang mgkin harus diselesaikan dg cara yg blum saya pahami.
+		-Mungkin dgn cara background-repeat,background-sprite,
+		mgkin cara itu tapi saya belum mengetahui sblumnya.
