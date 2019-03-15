@@ -1,0 +1,8 @@
+Aktivitas Hari Ini	:
+		-Membuat bagian bawah header,mengganti yang tadinya memakai tabel
+		dengan memakai div,ul dan li.
+		-Membaca-baca tntang CSS Image Sprites.
+
+Kendala		:
+		-Kesulitan yang saya dapatkan itu tntng CSS Image Sprite  karena harus teliti dan
+		paham mengenai Positionnya.
