@@ -1,0 +1,8 @@
+Aktivitas Hari Ini	:
+		-Saya mencoba mengatasi masalah yang terjadi pada saat saya ingin
+		memberi gambar cuma satu tp yang muncul beberapa di website bukalapak saya,
+		dan cara penerapannya sudah saya coba pakai css image sprite.
+
+Kendala		:
+		-Kendalanya pada saat mengatur background position,
+		saya  sudah akali namun masih saja tidak bisa.
