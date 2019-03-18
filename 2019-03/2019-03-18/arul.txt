@@ -1,0 +1,7 @@
+Aktivitas Hari Ini	:
+		-Mencoba mengatasi masalah gambar yang kemarin di web bukalapak saya.
+
+Kendala		:
+		-Sudah bisa saya atasi memberi gambarnya,kendalanya pas saya float,
+		sudah saya clear tapi posisinya mgkin numpuk atau saya salah mengelompokkan
+		divnya.
