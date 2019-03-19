@@ -1,0 +1,560 @@
+<html>
+    <head>
+        <title>online shop</title>
+        <style>
+            body{
+                margin: 0;
+            }
+            .isi{
+                width: 950px;
+                height: 650px;
+                margin: auto;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 0;
+            }
+            .head{
+                padding: 0;
+                margin-left: 1px;
+                margin-right: 1px;
+                margin-top: 0;
+                height: 110px;
+            }
+            div#olx{
+                float: left;
+            }
+            img#logo{
+                float: left;
+                width: 115px;
+                height: 110px;
+            }
+            p.promo{
+                font-family: arial;
+                font-size: 20px;
+                width: 335px;
+                padding-top: 30px
+            }
+            div#btn{
+                float: right;
+                margin: auto;
+                padding-top: 50px;
+            }
+            a#akun{
+                float: right;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 20px;
+                padding-left: 5px;
+                font-family: arial;
+                font-size: 16px;
+                text-decoration: none;
+                width: 120px;
+            }
+            a#tambah{
+                float: right;
+                padding: 5px;
+                font-family: arial;
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                background-color: orange;
+                width: 120px;
+            }
+            img.button{
+                float: left;
+                padding-right: 5px;
+                width: 20px;
+                height: 20px;
+            }
+            div#search{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                margin-left: 1px;
+                margin-right: 1px;
+                margin-top: 0;
+                background: #E9E2F0 ;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 5px;
+            }
+            div#lokasi{
+                width: 280px;
+                background-color: white;
+                border-radius: 5px;
+                padding: 3px;
+            }
+            img.lokasi{
+                float: left;
+                width: 16px;
+                height: 36px;
+                padding: 2px;
+            }
+            input.lokasi{
+                height: 40px;
+                width: 260px;
+                padding: 10px;
+                border: none;
+                font-size: 16px;
+            }
+            input.ikl{
+                height: 40px;
+                width: 460px;
+                padding: 10px;
+                border: none;
+                font-size: 16px;
+            }
+            div#iklan{
+                width: 500px;
+                background-color: white;
+                border-radius: 5px;
+                padding: 3px;
+            }
+            img.iklan{
+                float: left;
+                padding: 2px;
+                width: 30px;
+                height: 30px;
+            }
+            div#cari{
+                width: 110px;
+                background-color: #663399;
+                font-family: arial;
+                font-size: 24px;
+                color: white;
+                border-radius: 5px;
+                height: 40px;
+                padding-top: 5px;
+            }
+            a.cari{
+                height: 40px;
+                width: 260px;
+                padding: 5px;
+            }
+            div#content{
+                float: left;
+                display: grid;
+                grid-template-columns: auto auto;
+                margin: 1px;
+                width: 490px;
+                height: 420px;
+                padding-top: 10px;
+            }
+            table{
+                border-collapse: collapse ;
+                width: 480px;
+                height: 420px;
+                padding: 0;
+                text-align: center;
+                font-family: arial;
+                font-size: 13px;
+                color: #2965be;
+            }
+            td{
+                border: 0.9px solid  #F8F8FF;
+                width: 120px;
+            }
+            img#button{
+                width: 90px;
+                height: 90px;
+            }
+            p#icon{
+                margin-top: 0;
+                margin-left: 7.5px;
+                width: 100px;
+                height: 40px;
+            }
+            div#iklanpromo{
+                float: right;
+                width: 400px;
+                height: 420px;
+                padding-top: 10px;
+                padding-right: 0;
+                padding-left: 0
+            }
+            img.iklanpromo{
+                width: 390px;
+                height: 400px;
+                padding: 0;
+                margin-left: 10px;
+            }
+            div.gb{
+                background: url(https://s3-ap-southeast-1.amazonaws.com/banners.olx.co.id/footer_gnrl_olx.png) repeat-x 50% 100%;
+                height: 206;
+                margin: 0;
+                padding: 0;
+            }
+            div#foter{
+                background: #e2e2e2;
+                padding-bottom: 90px;
+                padding-top: 10px;
+                margin-top: 0px;
+            }
+            div.foter{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                width: 1000px;
+                height: 350px;
+                margin: auto;
+                padding: 0;
+            }
+            div.aplikasi{
+                padding: 10px;
+                width: 150px;
+                height: 130px;
+                text-align: center;
+                font-family: arial;
+                font-size: 12px;
+            }
+            img.xlo{
+                width: 84px;
+                height: 84px;
+            }
+            .android{
+                display: inline-block;
+                background: url(andr.png);
+                width: 52px;
+                height: 52px;
+            }
+            .inst{
+                display: inline-block;
+                background: url(https://cdn.optimizely.com/img/575900422/f74d2d9aa15c469ca252e54a902b333b.png);
+                width: 52px;
+                height: 52px;
+            }
+            a#andr{
+                background-position: -254px -8px;
+            }
+            a#apple{
+                background-position: -322px -8px;
+            }
+            div.sosmed{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                text-align: center;
+                width: 210px;
+                padding: 2px;
+            }
+            a#face{
+                background-position: -183px -8px ;
+                height: 50px;
+                padding: 0;
+                text-align: center;
+            }
+            a#insta{
+                background-position: -110px -8px;
+                height: 50px;
+                padding: 0;
+                text-align: center;
+            }
+            a#twit{
+                background-position: -36px -8px;
+                height: 50px;
+                padding: 0;
+                text-align: center;
+            }
+            p.smd{
+                margin-top: 1px;
+                
+            }
+            ul{
+                list-style: none;
+                width: 220px;
+                padding-left: 0;
+                font-family: arial;
+            }
+            li{
+                color: #414141;
+                font-size: 13px;
+                line-height: 16px;
+                padding: 2px;
+            }
+            div.ftr{
+                padding-bottom: 5px;
+                font-size: 13px;
+                color: black;
+            }
+            div.program{
+                display: block;
+                height: 200px;
+                width: 220px;
+                font-family: arial;
+                font-size: 13px;
+                line-height: 1em;
+            }
+            div.prolx{
+                display: block;
+                height: 55px;
+                margin-left: 5px;
+            }
+            img#program{
+                float: left;
+                height: 50px;
+                width: 55px;
+                margin-left: 5px;
+            }
+            p.nameprogram{
+                padding-left: 70px;
+                padding-top: 15px;
+            }
+            li.artikel{
+                font-size: 14.5px;
+                padding-bottom: 2em;
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="isi">
+            <div class="head">
+                <div id="olx">
+                    <a>
+                        <img id="logo" src="logo olx.png">
+                    </a>
+                    <P class="promo"> Cara Tepat Jual Cepat</P>
+                </div>
+                <div id="btn">
+                    <a id="tambah">
+                        <img class="button" src="tp.png">
+                        Pasang Iklan
+                    </a>
+                    <a id="akun">
+                        <img class="button" src="akun.png">
+                        Akun Saya
+                    </a>
+                </div>
+            </div>
+            <div id="search">
+                <div id="lokasi">
+                    <img class="lokasi" src="lokasi.png">
+                    <input class="lokasi" type="search" placeholder="Semua provinsi">
+                </div>
+                <div id="iklan">
+                    <img class="iklan" src="search.png">
+                    <input class="ikl" type="search" placeholder="3.150.476 iklan di sekitar Anda">
+                </div>
+                <div id="cari">
+                    <a class="cari">
+                        <img class="iklan" src="search.png">
+                        Cari
+                    </a>
+                </div>
+            </div>
+            <div id="content">
+                <table>
+                    <tr>
+                        <td>
+                            <a>
+                                <img id="button" src="mobil.png">
+                                <p id="icon">Mobil</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="motor.png">
+                                <p id="icon">Motor</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="properti.jpg">
+                                <p id="icon">Properti</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="keperluanpribadi.png">
+                                <p id="icon">Keperluan Pribadi</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>
+                                <img id="button" src="elektronik.jpg">
+                                <p id="icon">Elektronik & Gagdet</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="olahraga.jpg">
+                                <p id="icon">Hobi & Olahraga</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="rumahtangga.png">
+                                <p id="icon">Rumah Tangga</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="bayi.png">
+                                <p id="icon">Perlengkapan Bayi & Anak</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>
+                                <img id="button" src="kantor.png">
+                                <p id="icon">Kantor & Industri</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a>
+                                <img id="button" src="jasa.png">
+                                <p id="icon">Jasa & Lowongan Kerja</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="iklanpromo">
+                <a>
+                    <img class="iklanpromo" src="https://tpc.googlesyndication.com/simgad/3448389504401099287">
+                </a>
+            </div>
+        </div>
+        <footer >
+            <div class="gb">
+            </div>
+            <div id="foter">
+                <div class="foter">
+                    <div> 
+                        <div class="aplikasi" >
+                            <a>
+                                <img class="xlo" src="olx.png">
+                            </a>
+                            <p>Cara Tepat Jual Cepat</p>
+                        </div>
+                        <div class="aplikasi">
+                            <a class="android" id="andr"></a>
+                            <a class="android" id="apple"></a>
+                            <p>
+                                Download Aplikasi OLX
+                                di Handphone Anda
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <b>
+                                <div class="ftr">OLX Indonesia</div>
+                                </b>
+                            </li>
+                            <li>
+                                <a>Pusat Bantuan</a>
+                            </li>
+                            <li>
+                                <a>Syarat & Ketentuan</a>
+                            </li>
+                            <li>
+                                <a>Kebijakan Privasi</a>
+                            </li>
+                            <li>
+                                <a>Cara Menggunakan OLX</a>
+                            </li>
+                            <li>
+                                <a>Peta Situs</a>
+                            </li>
+                            <li>
+                                <a>Tentang OLX Indonesia</a>
+                            </li>
+                            <li>
+                                <a>Tentang OLX Group</a>
+                            </li>
+                            <li>
+                                <a>Karir di OLX</a>
+                            </li>
+                        </ul>
+                        <div class="sosmed">
+                            <a class="android" id="face"></a>
+                            <a class="inst" id="insta"></a>
+                            <a class="android" id="twit"></a>
+                            <p class="smd">Facebook</p>
+                            <p class="smd">Instagram</p>
+                            <p class="smd">Twitter</p>
+                        </div>
+                    </div>
+                    <div >
+                        <ul>
+                            <li>
+                                <b>
+                                <div class="ftr">Perlu Anda Ketahui</div>
+                                </b>
+                            </li>
+                            <li>
+                                <a>Iklan Berdasarkan Lokasi</a>
+                            </li>
+                            <li>
+                                <a>Pencarian populer</a>
+                            </li>
+                            <li>
+                                <a>Tips Jual Beli Aman</a>
+                            </li>
+                        </ul>
+                        <div class="program">
+                            <div>
+                                <b>
+                                    <div>Program OLX</div>
+                                </b>
+                            </div>
+                            <div class="prolx">
+                                <a>
+                                    <img id="program" src="https://static.olx.biz.id/cdn/logo/BMG2.png">
+                                    <P class="nameprogram">Jual Mobil 1 Jam</P>
+                                </a>
+                            </div>
+                            <div class="prolx">
+                                <a>
+                                    <img id="program" src="https://static.olx.biz.id/cdn/logo/olx_properti_baru.png">
+                                    <p class="nameprogram">Properti Baru</p>
+                                </a>
+                            </div>
+                            <div class="prolx">
+                                <a>
+                                    <img id="program" src="https://static.olx.biz.id/cdn/logo/car_inspection.png">
+                                    <p class="nameprogram">Layanan Inspeksi Mobil</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <b>
+                                    <div class="ftr">Artikel Blog Terbaru</div>
+                                </b>
+                            </li>
+                            <li class="artikel">
+                                <b>
+                                    <a>
+                                        Beli Mobil Honda Baru, Langsung Dapat Emas 5 Gram
+                                    </a>
+                                </b>
+                            </li>
+                            <li class="artikel">
+                                <b>
+                                    <a>
+                                        5 Tips Jitu Ketika Mengemudi Sendirian
+                                    </a>
+                                </b>
+                            </li>
+                            <li class="artikel">
+                                <b>
+                                    <a>
+                                        APM Ini Cari Partner Jualan Motor Peugeot di Indonesia
+                                    </a>
+                                </b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

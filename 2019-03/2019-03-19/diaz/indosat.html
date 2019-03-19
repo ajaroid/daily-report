@@ -1,0 +1,931 @@
+<html>
+    <head>
+        <title>indosat.id</title>
+        <style>
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgb(25, 0, 255);
+                border-radius: 15px;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #f8f7f7;
+                cursor: url(http://1.bp.blogspot.com/-CXA7o99uPGw/Ts1RxjDKYvI/AAAAAAAAAFk/EB40eI10gLg/s1600/BuluPelangi.gif), default;
+            }
+            div#button{
+                position: sticky;
+                top: 0;
+                width: 100%;
+                height: 35px;
+                background: #fcd401;
+                margin: 0;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                z-index: 1;
+            }
+            ul.button{
+                display: block;
+                float: left;
+                list-style: none;
+                font-size: 14px;
+                color: #ed1c24;
+                padding: 0;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                margin-left: 105px;
+            }
+            li#menu{
+                float: left;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-right: 10px;
+                padding-left: 10px;
+                text-align: center;
+            }
+            ul#bahasa{
+                display: block;
+                float: right;
+                list-style: none;
+                font-size: 14px;
+                color: #ed1c24;
+                padding: 0;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                margin-right: 105px;
+            }
+            li#english{
+                float: left;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-right: 10px;
+                padding-left: 10px;
+                text-align: center;
+                color: black;
+            }
+            div#search{
+                position: sticky;
+                top: 0px;
+                width: 1140px;
+                height: 80px;
+                background: white;
+                color: #ed1c24;
+                padding: 0;
+                margin: auto;
+                z-index: 1;
+                box-shadow: 0px 0px 10px #cecece;
+                border-radius: 10px;
+            }
+            div.im3{
+                margin: 0;
+                padding: 0;
+                float: left;
+            }
+            img#im3{
+                margin-left: 60px;
+                margin-top: 5px;
+                margin-right: 25px;
+                width: 100px;
+                height: 66px;
+            }
+            ul#menusearch{
+                float: left;
+                list-style: none;
+                margin-top: 15px;
+                padding: 0;
+                font-weight: bold;
+                letter-spacing: -1px;
+                font-family: verdana;
+            }
+            li.menusearch{
+                float: left;
+                padding: 15px;
+                font-size: 15px;
+                text-align: center;
+            }
+            li.menusearch1{
+                float: left;
+                padding-top: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 15px;
+                text-align: center;
+            }
+            div#search2{
+                border: 1px solid #e0dcdc;
+                background: white;
+                float: right;
+                width: 190px;
+                height: 30px;
+                margin-right: 70px;
+                margin-top: 25px;
+                border-radius: 20px;
+            }
+            input.search2{
+                float: left;
+                width: 150px;
+                height: 22px;
+                padding: 0;
+                margin-top: 5px;
+                margin-left: 7.5px;
+                border: none;
+            }
+            input.submit{
+                float: right;
+                background: url(https://assets.indosatooredoo.com/Assets/Upload/revamp-faq/desktop/searchthumb.png) center no-repeat;
+                height: 23px;
+                width: 23px;
+                padding:0;
+                margin-top:3.5px;
+                margin-right: 7.5px;
+                border-radius: 10px;
+                border: none;
+            }
+            div#iklan{
+                background-image: url(https://assets.indosatooredoo.com/Assets/Upload/Indira-Page/BANNER_WEB_IND.jpg);
+                position: absolute;
+                background-position: 50%;
+                top: 30px;
+                z-index: -1;
+                width: 100%;
+                height: 530px;
+                overflow: hidden;
+            }
+            div#buttoniklan{
+                width: 100%;
+                margin-top: 450px;
+                margin-bottom: 85px;
+                padding: 0;
+            }
+            ul.buttoniklan{
+                width: 160px;
+                height: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 0;
+                list-style: none;
+            }
+            ul.buttoniklan li{
+                float: left;
+                background: rgba(229, 229, 229,1);
+                border: 2px solid #fff;
+                width: 12px;
+                height: 12px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 0;
+                margin-bottom: 0;
+                border-radius: 8px;
+            }
+            div#promo{
+                height: 480px;
+                padding: 0;
+                margin: 0;
+            }
+            div.promo{
+                width: 1120px;
+                height: 410px;
+                padding: 0;
+                margin: auto;
+            }
+            div#promo1234{
+                float: left;
+                font-family: Arial, Helvetica, sans-serif;
+                height: 410px;
+                width: 265px;
+                margin-left: 6.5px;
+                margin-right: 6.5px;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 0;
+                border-radius: 10px;
+                background: white;
+                overflow: hidden;
+            }
+            div#promo1234 img{
+                margin: 0;
+                padding: 0;
+            }
+            div#promo1234 h4{
+                width: 233px;
+                height: 45px;
+                color: red;
+                font-size: 20px;
+                margin-top: 12px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0; 
+            }
+            div#promo1234 p{
+                width: 233;
+                height: 60px;
+                font-size: 14px;
+                margin-top: 12px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+                line-height: 1.4em;
+                letter-spacing: 0.5px; 
+            }
+            div#promo1234 a{
+                background: #ed1c24;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 20px;
+            }
+            div#promopaketan{
+                float: left;
+                height: 400px;
+                width: 359px;
+                margin-left: 6.5px;
+                margin-right: 6.5px;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 0;
+                border-radius: 10px;
+                background: white;
+                overflow: hidden;
+                font-family: arial;
+            }
+            img#promopaketan123{
+                width: 359px;
+                height: 179px;
+            }
+            div#promopaketan h3{
+                width: 326px;
+                font-weight: bold;
+                font-size: 24px;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0;
+            }
+            h3 img{
+                float: right;
+                width: 22px;
+                height: 21px;
+            }
+            div#promopaketan p{
+                width: 326px;
+                font-size: 15px;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0;
+            }
+            div#carapakaiim3{
+                width: 1120px;
+                height: 136px;
+                margin: auto;
+                border-radius: 10px;
+                background: white;
+            }
+            div#carapakaiim3 span{
+                font-family: Arial, Helvetica, sans-serif;
+                float: left;
+                margin-left: 55px;
+                margin-top: 30px;
+                margin-right: 125px;
+                width: 232px;
+                height: 89px;
+                font-size: 34px;
+                color: #ed1c24;
+            }
+            div#carapakaiim3 ul{
+                font-family: Arial, Helvetica, sans-serif;
+                float: left;
+                margin-left: 20px;
+                margin-top: 32px;
+                margin-right: 0;
+                margin-left: 20px;
+                margin-top: 32px;
+                margin-right: 125px;
+                width: 445px;
+                height: 70px;
+            }
+            div#carapakaiim3 div{
+                float: right;
+                margin-left: 0px;
+                margin-top: -50px;
+                margin-right: 100px;
+            }
+            div#carapakaiim3 a{
+                background: #ed1c24;
+                padding-top:15px;
+                padding-bottom: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 20px;
+                color: #fff;
+            }
+            div#aplikasi{
+                width: 1120px;
+                height: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 55px;
+                margin-bottom: 0;
+                border-radius: 10px;
+                background: white;
+                padding: 0;
+            }
+            div.aplikasi1{
+                float: left;
+                width: 73px;
+                height: 73px;
+                margin-left: 85px;
+                margin-top: 25px;
+                margin-right: 10px;
+                padding: 0;
+            }
+            div.aplikasi1 img{
+                width: 73px;
+                height: 73px;
+                padding: 0;
+            }
+            div.aplikasi2{
+                float: left;
+                width: 537px;
+                height: 70px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 25px;
+                margin-left: 5px;
+                padding: 0;
+            }
+            div.aplikasi2 h1{
+                font-size: 36px;
+                margin-top: 0px;
+                margin-bottom: 5px;
+                padding: 0;
+            }
+            div.aplikasi2 a{
+                background: url(https://indosatooredoo.com/Assets/Img/btn-arrow.png) no-repeat right;
+                background-size: 15px 15px;
+                padding-right: 20px;
+            }
+            div.aplikasi3{
+                float: left;
+                height: 73px;
+                margin-top: 25px;
+                margin-left: 0;
+                padding: 0;
+                border-left: 1px solid #efefef;
+            }
+            div.aplikasi3 h5{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 20px;
+                padding: 0;
+                font-size: 16px;
+            }
+            div.aplikasi3 img{
+                width: 110px;
+                height: 33px;
+                padding: 0;
+                margin-left: 20px;
+            }
+            div#infoim3{
+                width: 1120px;
+                height: 224px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 75px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            div.infoim31{
+                float: left;
+                width: 345px;
+                height: 184px;
+                margin-right: 10px;
+                padding: 0;
+            }
+            div.infoim323{
+                float: left;
+                width: 355px;
+                height: 184px;
+                margin-right: 25px;
+                padding: 0;
+                border-left: 1px solid #c8c6c6;
+            }
+            div#infoim3 h2{
+                font-size: 26px;
+                padding: 0;
+                margin-left: 20px;
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+            div#infoim3 p{
+                height: 66px;
+                padding: 0;
+                margin-left: 20px;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            div#infoim3 a{
+                font-size: 14px;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                background: url(https://indosatooredoo.com/Assets/Img/btn-arrow.png) no-repeat right;
+                background-size: 15px 15px;
+                padding-right: 25px;
+            }
+            div#daftar{
+                background-color: #fcd401;
+                height: 84px;
+                margin-top: 40px;
+                padding: 1px;
+            }
+            div.daftar{
+                width: 900px;
+                height: 44px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                padding: 0;
+            }
+            div.daftar h3{
+                float: left;
+                width: 350px;
+                color: #ed1c24;
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                margin-top: 8.5px;
+                margin-left: 30px;
+                margin-right: 0;
+            }
+            div.email{
+                float: left;
+                width: 510px;
+                height: 44px;
+                background: white;
+                border-radius: 20px;
+                padding: 0;
+            }
+            input#email{
+                float: left;
+                width: 458px;
+                height: 34px;
+                border: none;
+                margin-top: 4px;
+                margin-left: 10px;
+                border-radius: 20px;
+                padding: 0;
+                background: none;
+                font-size: 24px;
+                color: darkgrey;
+                font-style: italic;
+            }
+            input#submit{
+                float: right;
+                width: 30px;
+                height: 30px;
+                border: none;
+                background: url(https://assets.indosatooredoo.com/Assets/Upload/newhome/amplop-min-new.png) center no-repeat;
+                margin-top: 6px;
+                margin-right: 10px;
+            }
+            div#tujuanim3{
+                width: 1140px;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0;
+            }
+            div#tujuanim3 h2{
+                color: #888888;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 50px;
+                margin-bottom: 2px;
+            }
+            div#tujuanim3 p{
+                color: #888888;
+                font-size: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            div.tujuanim3{
+                width: 150px;
+                margin-top: 80px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            div.tujuanim3 a{
+                color: #ed1c24;
+                font-size: 18px;
+                background: url(https://indosatooredoo.com/Assets/Img/down-arrow.png) right no-repeat;
+                padding-right: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            div#sosmed{
+                background-color: #e9212d;
+                height: 117px;
+                text-align: center;
+                padding: 1;
+                margin: 0;
+            }
+            div.sosmed {
+                padding: 0;
+                height: 25px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            div.sosmed h3{
+                font-family: verdana;
+                font-size: 20px;
+                color: #fff;
+                font-weight: 500;
+                margin: 0;
+                padding: 0;
+            }
+            div#sosmed ul{
+                text-align: center;
+                width: 320px;
+                padding: 0;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0;
+            }
+            div#sosmed li{
+                float: left;
+                list-style: none;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin: auto;
+            }
+            div#sosmed img{
+                width: 40px;
+                height: 40px;
+            }
+            div#footer{
+                background: black;
+                height: 270px;
+                margin:0;
+                padding: 1px;
+            }
+            div#footer div{
+                width: 995px;
+                height: 150px;
+                margin-top: 55px;
+                margin-left: 250px;
+                margin-right: auto;
+            }
+            div#footer ul{
+                float: left;
+                width: 300px;
+                height: auto;
+                border-left: 1px solid #3c474c;
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 15px;
+                list-style: none;
+                padding: 0;
+                font-family: verdana;
+            }
+            div#footer li{
+                color: #7c8386;
+                font-size: 13px;
+                padding: 2px;
+                margin-left: 5px;
+                margin-bottom: 2px;
+            }
+            div#footer h3{
+                color: white;
+                font-size: 13px;
+                font-weight: 700;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                padding: 0;
+            }
+            div.footer{
+                margin: 0;
+                padding: 1px;
+                background: #cdcdcd;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="button">
+            <ul class="button">
+                <li id="menu">
+                    <a>Personal</a>
+                </li>
+                <li id="menu">
+                    <a>Bisnis</a>
+                </li>
+                <li id="menu">
+                    <a>Tentang Indosat Ooredoo</a>
+                </li>
+                <li id="menu">
+                    <a>Investor Relations</a>
+                </li>
+            </ul>
+            <ul id="bahasa">
+                <li id="english">
+                    <a>English</a>
+                </li>
+                <li id="menu">
+                    <a>Bahasa Indonesia</a>
+                </li>
+            </ul>
+        </div>
+        <div id="search">
+            <div class="im3">
+                <img id="im3" src="https://assets.indosatooredoo.com/Assets/Upload/Logo-Logo/logo.svg">
+            </div>
+            <ul id="menusearch">
+                <li class="menusearch">
+                    <a>Produk</a>
+                </li>
+                <li class="menusearch1">
+                    <a>Kenapa IM3<br>Ooredo</a>
+                </li>
+                <li class="menusearch">
+                    <a>Shop</a>
+                </li>
+                <li class="menusearch">
+                    <a>myIM3</a>
+                </li>
+            </ul>
+            <div id="search2">
+                <input class="search2" type="text" placeholder="search.....">
+                <input class="submit" type="submiit" value="">
+            </div>
+        </div>
+        <div id="iklan">
+            <a>
+            </a>
+        </div>
+        <div id="buttoniklan">
+            <ul class="buttoniklan">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="promo">
+            <div class="promo">
+                <div id="promo1234">
+                    <img src="http://assets.indosatooredoo.com/Assets/Upload/hotnewspromo/Hotnews-Messi-Challenge.jpg">
+                    <h4>Play Messi Challenge, Kejar ke Barcelona</h4>
+                    <p>
+                        Mau jalan – jalan ke Barcelona? Atau punya smartphone baru? Ikuti Messi Challenge
+                    </p>
+                    <center>
+                        <a class="promo1">
+                            Cari Tahu
+                        </a>
+                    </center>
+                </div>
+                <div id="promo1234">
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/strimbol-hotnews.jpg">
+                    <h4>Strimbol</h4>
+                    <p>
+                        Nonton liga terbaik dunia kapan saja, dimana saja. Bisa bayar pake pulsa.
+                    </p>
+                    <center>
+                        <a class="promo1">
+                            Cari Tahu
+                        </a>
+                    </center>
+                </div>
+                <div id="promo1234">
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/yellow-hn-2019.jpg">
+                    <h4>Super Hematnya Banyak Bonusnya</h4>
+                    <p>
+                        Internetan dengan harga superhemat bikin internetan puas seharian
+                    </p>
+                    <center>
+                        <a class="promo1">
+                            Beli Sekarang
+                        </a>
+                    </center>
+                </div>
+                <div id="promo1234">
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/unlimited-hn-2019.jpg">
+                    <h4>UNLIMITED KINI DENGAN INSTAGRAM</h4>
+                    <p>
+                        Posting foto seru dan Instastory gak habis-habis nikmati juga Unlimited YouTube dan Aplikasi populer.
+                    </p>
+                    <center>
+                        <a class="promo1">
+                            Beli Sekarang
+                        </a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div id="promo"> 
+            <div class="promo">
+                <div id="promopaketan">
+                    <img id="promopaketan123" src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/socialtile-unlimited-2019.jpg">
+                    <h3>Unlimited YouTube & Apps Gratis YouTube-an Sepuasnya <img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/icon-yt.png"></h3>
+                    <p>Paket Unlimited kini hadir dengan tambahan pilihan paket 3 Hari dan 7 Hari. Gratis YouTube-an sepuasnya dan unlimited akses semua aplikasi populer mulai dari Rp 5.000.</p>
+                </div>
+                <div id="promopaketan">
+                    <img id="promopaketan123" src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/socialtile-myIM3BonusUnlimited-ind.jpg">
+                    <h3>Beli Paket Unlimited di myIM3 Bonus Kuota hingga 3 GB <img src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/Logo-MyIm3-small.png"></h3>
+                    <p>Sekarang beli paket Unlimited via myIM3 bisa dapat tambahan bonus kuota hingga 3 GB. Yuk beli sekarang! #LebihUntung di myIM3 https://bit.ly/myim3unlwb</p>
+                </div>
+                <div id="promopaketan">
+                    <img id="promopaketan123" src="https://assets.indosatooredoo.com/Assets/Upload/home-hotnews/socialtile-instameet-2019.jpg">
+                    <h3>IM3 Ooredoo Instameet<img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/icon-yt.png"></h3>
+                    <p>Para penggiat konten Instagram menikmati liburan dengan berkumpul bersama</p>
+                </div>
+            </div>
+        </div>
+        <div id="carapakaiim3">
+            <span>Belum Pakai IM3 Ooredoo?</span>
+            <ul>
+                <li>Simple, Satu tarif untuk semua</li>
+                <li>Pulsa Safe, bebas internetan pulsa aman</li>
+                <li>Gratis Nelpon semua operator jika isi ulang minimal 10 ribu</li>
+            </ul>
+            <div>
+                <a>Cari tahu</a>
+            </div>
+        </div>
+        <div id="aplikasi">
+            <div class="aplikasi1">
+                <img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/MyIM31-min.png">
+            </div>
+            <div class="aplikasi2">
+                <h1>Semuanya jadi simpel</h1>
+                <a>Download Sekarang</a>
+            </div>
+            <div class="aplikasi3">
+                <h5> Dapatkan Sekarang </h5>
+                <a>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/Gplay-min.png">
+                </a>
+                <a>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/newhome/AppStore-min.png">
+                </a>
+            </div>
+        </div>
+        <div id="infoim3">
+            <div class="infoim31">
+                <h2>Jangkauan jaringan</h2>
+                <p>Jaringan 4G terbaik di Indonesia dalam genggaman.</p>
+                <a>Lihat jangkauannya</a>
+            </div>
+            <div class="infoim323">
+                <h2>Lokasi gerai</h2>
+                <p>Mari berbincang dengan kami di gerai terdekat.</p>
+                <a>Temukan gerai</a>
+            </div>
+            <div class="infoim323">
+                <h2>Bantuan & dukungan</h2>
+                <p>Perlu bantuan untuk produk dan paket IM3 Ooredoo?</p>
+                <a>Kontak kami</a>
+            </div>
+        </div>
+        <div id="daftar">
+            <div class="daftar">
+                <h3>
+                    Daftar untuk tetap ter-update
+                </h3>
+                <div class="email">
+                    <input id="email" type="email" placeholder="Email Kamu">
+                    <input id="submit" type="submit" value="">
+                </div>
+            </div>
+        </div>
+        <div id="tujuanim3">
+            <h2>IM3 Ooredoo Membebaskan Internet Untuk Kamu </h2>
+            <p>
+                Di <b>IM3 Ooredoo</b>, kami percaya perubahan. Perubahan untuk membebaskan internet sehingga semua orang bisa online dengan akses cepat, 
+                terjangkau, punya banyak kuota dan tanpa cemas. IM3 Ooredoo menawarkan paket Freedom Combo dan Freedom Mini. 
+                Dengan Freedom Combo kamu akan mendapatkan paket komplit dengan banyak benefit. Freedom Combo adalah paket lengkap terbaik, 
+                tanpa batasan waktu, kuota besar di semua jaringan. Sedangkan Freedom Mini memberikan kamu UNLIMITED Internetan, Nelpon dan SMS ke sesama pelanggan IM3 Ooredoo.
+            </p>
+            <div class="tujuanim3">
+                <a>
+                    Selengkapnya
+                </a>
+            </div>
+        </div>
+        <div id="sosmed">
+            <div class="sosmed">
+                <a>
+                    <h3>Media Sosial</h3>
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/assets/images/red-twitter.png">
+                </li>
+                <li>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/assets/images/red-facebook.png">
+                </li>
+                <li>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/assets/images/red-youtube.png">
+                </li>
+                <li>
+                    <img src="https://assets.indosatooredoo.com/Assets/Upload/assets/images/red-instagram.png">
+                </li>
+            </ul>
+        </div>
+        <div id="footer">
+            <div>
+                <ul>
+                    <li>
+                        <a>
+                            <h3>Bantuan</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Promo
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Tanya-Jawab
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Syarat & Ketentuan
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Kebijakan Privasi
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Peta Cakupan Jaringan
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>
+                            <h3>Hubungan Investor</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Indosat Ooredoo
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Ideabox
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Rilis Pers
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Karir
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>
+                            <h3>Kontak Kami</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Informasi Kontak
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Temukan gerai
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Indosat Ooredoo © 2019 All Right Reserved</p>
+        </div>
+    </body>
+</html>

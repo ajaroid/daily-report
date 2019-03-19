@@ -1,0 +1,876 @@
+<html>
+    <head>
+        <title>INDOMART</title>
+        <style>
+        body{
+            background: url(indomart.jpg) no-repeat top center #0285f1;
+            height: 2000px;
+            margin: 0;
+            padding: 1px;
+        }
+        div#isi{
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+            background: url(bg-isi.jpg) repeat-x #fff;
+            box-shadow: 0 0 4px 4px #4692ca;
+            width: 920px;
+            height: 1725px;
+            padding: 0;
+        }
+        div#menu{
+            padding-top: 20px;
+            font-family: 'rockwellregular';
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: #444444;
+            height: 120px;
+        }
+        div.menu{
+            height: 45px;
+            width: 585px;
+        }
+        ul#button{
+            float: left;
+            padding: 0;
+            margin: 0px;
+            height: 45px;
+            display: block;
+            width: 440px;
+        }
+        li.button{
+            float: left;
+            list-style: none;
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 12.5px;
+            padding-right: 12.5px;
+            border-top-right-radius: 15px;
+            background: #fecf22; 
+            margin-right: 2px;
+            margin-left: 0;
+        }
+        img{
+            width: 37px;
+            padding: 0;
+            margin: 0;
+        }
+        ul#sosmed{
+            float: right;
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+        li.sosmed{
+            display: inline-block;
+            padding: 0;
+            margin-top: 3px;
+            margin-left: 0;
+            margin-right: -4px;
+        }
+        ul#button2{
+            float: left;
+            padding: 0;
+            margin-top: 2px;
+            margin-left: 0;
+            height: 46px;
+            display: block;
+            width: 585px;
+            list-style: none;
+            background-color: #52b3e6;
+        }
+        li.button2{
+            padding-top: 6px;
+            font-size: 11px;
+            float: left;
+            text-align: center;
+            height: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #52b3e6;
+            color: #000;
+            border-right: 1px solid #61a9cf;
+            font-weight: normal;
+        }
+        img#home{
+            width: 25px;
+            height: 20px;
+        }
+        div#indomart{
+            float: right;
+            margin-top: -47px;
+            margin-right: 0px;
+            margin-left: 10px
+        }
+        img.indomart{
+            width: 280px;
+            height: 100px;
+            margin: 0;
+            padding: 0;
+        }
+        div#iklan{
+            height: 380px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 10px;
+            margin-top: -10px;
+        }
+        div.iklan{
+            border: 10px solid #52b3e6;
+            background: #52b3e6;
+            height: 365px;
+            padding: 0;
+            margin: 0;
+            border-top-left-radius: 55px;
+            border-bottom-right-radius: 120px;
+            border-bottom-left-radius: 80px;
+            border-top-right-radius: 5px;
+        }
+        img.gambariklan{
+            width: 870px;
+            border-top-left-radius: 55px;
+            border-bottom-right-radius: 120px;
+            border-bottom-left-radius: 80px;
+            border-top-right-radius: 0;
+        }
+        div#cari{
+            display: block;
+            height: 70px;
+            padding-top: 0px;
+            padding-right: 22px;
+            padding-bottom: 0px;
+            padding-left: 22px;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+        div.cari{
+            display: block;
+            float: left;
+            width: 240px;
+            height: 70px;
+            padding: 0;
+            border-right: 2px dashed #848484;
+            border-top: none;
+            border-left: none;
+            border-bottom: none;
+        }
+        div#cari1{
+            border: 1px solid #71c0e9;
+            display: block;
+            border-radius: 7px;
+            float: left;
+            width: 210px;
+            height: 25px;
+            padding: 5px;
+            background: #dee9ee;
+            clear: left;
+        }
+        input.cari1{
+            float: left;
+            height: 15px;
+            width: 160px;
+            border-radius: 3px;
+            border-style: none;
+            font-style: italic;
+            font-size: 13px;
+            font-weight: bold;
+            background: #dee9ee;
+        }
+        input#submit{
+            background: url(submit.jpg) no-repeat;
+            width: 20px;
+            height: 20px;
+            float: right;
+            border-style: none;
+        }
+        p.waktu{
+            font-family: Calibri, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #444444;
+        }
+        div#call{
+            float: left;
+            display: block;
+            width: 190px;
+            font-family: 'rockwellregular';
+            color: #10628d;
+            text-align: center;
+            margin-left: 14px;
+            margin-right: 5px;
+        }
+        p.call1{
+            font-size: 11px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+        p.call2{
+            display: block;
+            height: 25px;
+            padding: 5px 5px 5px 45px;
+            background: url(call.jpg) no-repeat left center #10628d;
+            border-radius: 10px;
+            color: white;
+            font-size: 30px;
+            line-height: 32px;
+            margin: 0;
+        }
+        p.cari3{
+            display: block;
+            float: right;
+            border-radius: 10px;
+            background: #033a57;
+            color: white;
+            font-size: 12px;
+            line-height: 17px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin: 0;
+        }
+        div#carilokasi{
+            float: left;
+            width: 140px;
+            height: 60px;
+            padding: 0;
+            margin: 0;
+        }
+        img.carilokasi{
+            width: 140px;
+            height: 55px;
+        }
+        div#loginwaralaba{
+            float: left;
+            width: 92px;
+            height: 60px;
+            padding: 0;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+        img.loginwaralaba{
+            margin-top: 10px;
+            float: left;
+            margin-right: 5px;
+            width: 92px;
+            height: 50px;
+        }
+        div#penghargaan{
+            float: left;
+            width: 170px;
+            height: 60px;
+            padding: 0;
+            margin: 0;
+        }
+        img.penghargaan{
+            width: 170px;
+            height: 55px;
+            padding: 0;
+            margin: 0;
+        }
+        div#promo{
+            background: url(http://indomaret.co.id/assets/theme/indomaret/images/twitter-feeds.png) no-repeat;
+            width: 875px;
+            height: 40px;
+            margin: auto;
+            padding: 0;
+            font-family: Calibri, Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #444444;
+        }
+        p.promo{
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+        div#info{
+            display: block;
+            width: 830px;
+            height: 122px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 13px;
+            margin-bottom: 0;
+            margin-bottom: 15px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            padding: 15px;
+            background: #71c0e9;
+            box-shadow: 0 0 12px 5px #d9d9d9;
+        }
+        div#back{
+            float: left;
+            background: url(http://indomaret.co.id/assets/theme/indomaret/images/arrow.png) no-repeat;
+            width: 15px;
+            height: 35px;
+            margin-top: 45px;
+        }
+        div#imageinfo{
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        img.imageinfo{
+            float: left;
+            width: 193px;
+            height: 120px;
+            margin: 2px;
+        }
+        div#next{
+            float: left;
+            background: url(http://indomaret.co.id/assets/theme/indomaret/images/arrow.png) no-repeat;
+            background-position: -15px 0;
+            width: 15px;
+            height: 35px;
+            margin-top: 45px;
+            margin-left: 0;
+        }
+        div#menuberita{
+            width: 872px;
+            height: 600px;
+            margin: auto;
+            padding: 0;
+        }
+        div#berita{
+            float: left;
+            width: 203px;
+            font-family: 'rockwellregular';
+            margin-right: 20px;
+        }
+        h2{
+            font-size: 17px;
+            background: #71c0e9;
+            color: #093953;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        img.berita{
+            width: 203px;
+            height: 125px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding: 0;
+        }
+        h1.judul{ 
+            color: #093953;
+            height: 70px;
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        p.deskripsi{
+            color: #093953;
+            font-size: 16px;
+            margin-bottom: 15px;
+            margin-top: 0;
+            text-align: left;
+        }
+        ul.buttonselengkapnya{
+            color: #093953;
+            font-size: 16px;
+            margin-bottom: 20px;
+            margin-top: 0;
+            margin-left: 0;
+            text-align: left;
+            list-style: none;
+            padding: 0;
+            font-size: 15px;
+        }
+        li#buttonselengkapnya{
+            text-align: left;
+            margin: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top: 1px solid #c2c2c2;
+        }
+        li#buttonselengkapnya1{
+            text-align: left;
+            margin: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-top: 1px solid #c2c2c2;
+            border-bottom: 1px solid #c2c2c2;
+        }
+        div#berita1{
+            float: left;
+            width: 203px;
+            font-family: 'rockwellregular';
+            margin-right:0;
+            margin-bottom: 1px;
+            padding: 0;
+        }
+        img.berita1{
+            width: 203px;
+            height: 125px;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+        }
+        p.deskripsi1{
+            color: #093953;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin-top: 0;
+            padding: 0;
+            text-align: left;
+        }
+        div#iklan2{
+            width: 880px;
+            height: 124px;
+            margin: auto;
+            padding: 0;
+        }
+        div.iklan2{
+            float: left;
+            margin-top: 10px;
+            padding: 0;
+        }
+        div.iklan3{
+            float: right;
+            margin-top: 10px;
+            padding: 0;
+        }
+        img#iklan23{
+            margin: 0;
+            padding: 0;
+            width: 428px;
+            height: 104px;
+        }
+        div#iklan4{
+            background: #c8dae4;
+            margin-top: 25px;
+            height: 125px;
+            padding-bottom: 15px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        img.iklan4{
+            float: left;
+            width: 134px;
+            height: 96px;
+            margin-top: 20px;
+            margin-left: 3.5px;
+            margin-right: 3.5px;
+        }
+        div#next1{
+            float: left;
+            background: url(http://indomaret.co.id/assets/theme/indomaret/images/arrow.png) no-repeat;
+            background-position: -15px 0;
+            width: 15px;
+            height: 35px;
+            margin-top: 50px;
+            margin-left: 0;
+        }
+        div#back1{
+            float: left;
+            background: url(http://indomaret.co.id/assets/theme/indomaret/images/arrow.png) no-repeat;
+            width: 15px;
+            height: 35px;
+            margin-top: 50px;
+        }
+        footer{
+            width: 905px;
+            background: #2e87b6;
+            padding-top: 24px;
+            padding-left: 19px;
+            padding-bottom: 20px;
+            margin: auto;
+            height: 150px;
+        }
+        div.footer{
+            width: 400px;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        ul#menusosmed{
+            width: 400px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 13px;
+        }
+        li.menufooter{
+            float: left;
+            padding: 5px;
+            color: white;
+            border-right: 1px solid white;
+            margin: 0;
+        }
+        li.menufooter1{
+            float: left;
+            padding: 5px;
+            color: white;
+            margin: 0;
+        }
+        li.footersosmed{
+            float: left;
+            padding: 5px;
+            color: white;
+            margin: 0;
+        }
+        li.footersosmed1{
+            float: left;
+            padding: 5px;
+            color: white;
+            margin-top: 10px;
+        }
+        p.copy{
+            float: left;
+            text-align: left;
+            margin-top: 1px;
+            padding: 0;
+        }
+        div#footer2{
+            float: left;
+            width: 250px;
+            margin-left: 15px;
+            padding: 0;
+        }
+        h1{
+            font-size: 18px;
+            color: white;
+            height: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        img.footer2{
+            float: left;
+            width: 50px;
+            height: 73px;
+            margin: 0;
+            padding: 0;
+        }
+        p.footer2{
+            float: left;
+            color: white;
+            font-size: 16px;
+            margin-top: 0;
+            margin-left: 30px;
+            padding: 0;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="isi">
+            <div id="menu">
+                <div class="menu">
+                    <ul id="button">
+                        <li class="button">
+                            <a>HOME</a>
+                        </li>
+                        <li class="button">
+                            <a>WARALABA</a>
+                        </li>
+                        <li class="button">
+                            <a>KORPORAT</a>
+                        </li>
+                        <li class="button">
+                            <a>MITRA</a>
+                        </li>
+                        <li class="button">
+                            <a>KARIR</a>
+                        </li>
+                    </ul>
+                    <ul id="sosmed">
+                        <li class="sosmed">
+                            <a>
+                                <img src="http://indomaret.co.id/assets/theme/indomaret/images/icon-fb.png">
+                            </a>
+                        </li>
+                        <li class="sosmed">
+                            <a>
+                                <img src="http://indomaret.co.id/assets/theme/indomaret/images/icon-twitter.png">
+                            </a>
+                        </li>
+                        <li class="sosmed">
+                            <a>
+                                <img src="http://indomaret.co.id/assets/theme/indomaret/images/icon-youtube.png">
+                            </a>
+                        </li>
+                        <li class="sosmed">
+                            <a>
+                                <img src="http://indomaret.co.id/assets/theme/indomaret/images/ig.png">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="button2">
+                        <li class="button2">
+                            <a>
+                                <img id="home" src="http://indomaret.co.id/assets/theme/indomaret/images/homeindo.png">
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                PRODUK
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                PROMOSI
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                KARTU
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                LAYANAN
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                BERITA
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a>
+                                HUBUNGI KAMI
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="indomart">
+                    <a>
+                        <img class="indomart" src="http://indomaret.co.id/assets/theme/indomaret/images/logo.png">
+                    </a>
+                </div>
+            </div>
+            <div id="iklan">
+                <div class="iklan">
+                    <a>
+                        <img class="gambariklan" src="http://indomaret.co.id/assets/gallery/2/5174.jpg">
+                    </a>
+                </div>
+            </div>
+            <div id="cari">
+                <div class="cari">
+                    <div id="cari1">
+                        <input class="cari1" type="text" placeholder="Cari Arsip">
+                        <input id="submit" type="submit" value>
+                    </div>
+                    <p class="waktu">Waktu</p>
+                </div>
+                <div id="call">
+                    <p class="call1">CALL CENTER</p>
+                    <P class="call2">1500-280</P>
+                    <P class="cari3">SMS 0811 1500 280</P>
+                </div>
+                <div id="carilokasi">
+                    <a>
+                        <img class="carilokasi" src="http://indomaret.co.id/assets/theme/indomaret/images/bt_lokasi.jpg">
+                    </a>
+                </div>
+                <div id="loginwaralaba">
+                    <a>
+                        <img class="loginwaralaba" src="http://indomaret.co.id/assets/theme/indomaret/images/logwaralaba.png">
+                    </a>
+                </div>
+                <div id="penghargaan">
+                    <a>
+                        <img class="penghargaan" src="http://indomaret.co.id/assets/theme/indomaret/images/award2.png">
+                    </a>
+                </div>
+            </div>
+            <div id="promo">
+                <p class="promo">TEBUS MURAH Rp100 1 pc TROPICAL 1 L/BANGO Kecap Manis Refill 220 ml/INDOMARET Tissue 220's/INDOMARET Gula Pasir 1 K… </p>
+            </div>
+            <div id="info">
+                <div id="back"></div>
+                <div id="imageinfo">
+                    <img class="imageinfo" src="http://indomaret.co.id/images/promosi-utama/thumb-pointcafe-sept16.jpg">
+                    <img class="imageinfo" src="http://indomaret.co.id/images/promosi-utama/thumb-klikindomaret-agst17.jpg">
+                    <img class="imageinfo" src="http://indomaret.co.id/images/pengumuman-pemenang/banner-thumb-winner-kemilau30th-mar19.jpg">
+                    <img class="imageinfo" src="http://indomaret.co.id/images/pengumuman-pemenang/thumb-winner-undianprodukdigital-nov18.jpg">
+                </div>
+                <div id="next"></div>
+            </div>
+            <div id="menuberita">
+                <div id="berita">
+                    <h2>Berita & kegiatan</h2>
+                    <img class="berita" src="http://indomaret.co.id/images/article_berita/thumb-pengundian-kemilau30thn-jan19.jpg">
+                    <h1 class="judul">Pengundian Hadiah kemilau 30 Tahun Indomaret</h1>
+                    <p class="deskripsi">pengundian penentuan pemenang promosi "Kemilau 30 Tahun Indomaret dilakukan rabu (30/1) di Kantor Pusat Indomaret, Kemayoran, Jakarata.</p>
+                    <ul class="buttonselengkapnya">
+                        <li id="buttonselengkapnya">
+                            <a>Daftar Layanan Internet GIG Bisa di Indomaret</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>Pemenang Favorit Lomba Batik Indomaret</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>Bantuan dan CSR Indomaret</a>
+                        </li>
+                        <li id="buttonselengkapnya1">
+                            <a>Donasi Konsumen Indomaret</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="berita">
+                    <h2>Layanan</h2>
+                    <img class="berita" src="http://indomaret.co.id/assets/theme/indomaret/images/iidlv.PNG">
+                    <h1 class="judul">Pesan-Antar-Ambil dari Indomaret</h1>
+                    <p class="deskripsi">Sejalan dengan perkembangan dunia ritel dan kebutuhan pelanggan, Indomaret terus melakukan inovasi baru dalam pengembangan produk dan jasa, antara lain: Pesan Ambil Indomaret (PAAI)</p>
+                    <ul class="buttonselengkapnya">
+                        <li id="buttonselengkapnya">
+                            <a>I-Tiket</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>I-payment</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>i.saku</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>Indo paket</a>
+                        </li>
+                        <li id="buttonselengkapnya1">
+                            <a>ATM Indomaret</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="berita">
+                    <h2>Kartu</h2>
+                    <img class="berita" src="http://indomaret.co.id/assets/theme/indomaret/images/thumb-mypoincard.jpg">
+                    <h1 class="judul">Belanja Makin Untung Selalu Pakai MyPoin</h1>
+                    <p class="deskripsi">
+                        Telah hadir! kartu Mypoin yang memberikan berbagai keuntungan antara lain 
+                        pengumpulan POIN yang dapat digunakan sebagai potongan belanja dan dapat ditukar dengan
+                        barang pilihan di website mypoin.id, program loyalti STAMP yang dapat ditukarkan
+                        dengan produk pilihan Anda serta promo khusus untuk member MyPoin.
+                    </p>
+                    <ul class="buttonselengkapnya">
+                        <li id="buttonselengkapnya">
+                            <a>Pengajuan Kartu Kredit Indomaret</a>
+                        </li>
+                        <li id="buttonselengkapnya">
+                            <a>Indomaret Card</a>
+                        </li>
+                        <li id="buttonselengkapnya1">
+                            <a>Promo Indomaret Card</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="berita1">
+                    <h2>Multimedia</h2>
+                    <img class="berita1" src="https://i.ytimg.com/vi_webp/1O0JSZ4BnFw/hqdefault.webp">
+                    <p class="deskripsi1">
+                        Share your Love with Point Cafe
+                    </p>
+                    <ul class="buttonselengkapnya">
+                        <li id="buttonselengkapnya">
+                            <a>Video lainnya</a>
+                        </li>
+                        <li id="buttonselengkapnya1">
+                            <a>Photo Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="iklan2">
+                <div class="iklan2">
+                    <img id="iklan23" src="http://indomaret.co.id/assets/gallery/6/3743.jpg">
+                </div>
+                <div class="iklan3">
+                    <img id="iklan23" src="http://indomaret.co.id/assets/gallery/7/91.jpg">
+                </div>
+            </div>
+            <div id="iklan4">
+                <div id="back1"></div>
+                <div>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/281.jpg">
+                    </a>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/940.png">
+                    </a>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/285.jpg">
+                    </a>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/162.jpg">
+                    </a>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/56.jpg">
+                    </a>
+                    <a>
+                        <img class="iklan4" src="http://indomaret.co.id/assets/gallery/8/95.jpg">
+                    </a>
+                </div>
+                <div id="next1"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <ul id="menusosmed">
+                    <li class="menufooter">
+                        <a>HOME</a>
+                    </li>
+                    <li class="menufooter">
+                        <a>WARALABA</a>
+                    </li>
+                    <li class="menufooter">
+                        <a>KORPORAT</a>
+                    </li>
+                    <li class="menufooter">
+                        <a>MITRA</a>
+                    </li>
+                    <li class="menufooter">
+                        <a>KARIR</a>
+                    </li>
+                    <li class="menufooter1">
+                        <a>SITEMAP</a>
+                    </li>
+                </ul>
+                <ul id="menusosmed">
+                    <li class="footersosmed">
+                        <img src="http://indomaret.co.id/assets/theme/indomaret/images/fb-foot.jpg">
+                    </li>
+                    <li class="footersosmed">
+                        <img src="http://indomaret.co.id/assets/theme/indomaret/images/twitter-foot.jpg">
+                    </li>
+                    <li class="footersosmed">
+                        <img src="http://indomaret.co.id/assets/theme/indomaret/images/youtube-foot.jpg">
+                    </li>
+                    <li class="footersosmed">
+                        <img src="http://indomaret.co.id/assets/theme/indomaret/images/ig-bw.jpg">
+                    </li>
+                    <li class="footersosmed">
+                        <img src="http://indomaret.co.id/assets/theme/indomaret/images/iconlinebw.png">
+                    </li>
+                    <li class="footersosmed1">
+                        <a>INDOMARET</a>
+                    </li>
+                </ul>
+                <P class="copy">Copyright @ 2019 diaz .All Rights Reseved</P>
+            </div>
+            <div id="footer2">
+                <h1>PT.Indomarco Prismatama</h1>
+                <br>
+                <img class="footer2" src="http://indomaret.co.id/assets/theme/indomaret/images/logodomarnew.PNG">
+                <p class="footer2">Kantor Pusat: <br>
+                    Jl. Terusan Angkasa B2 <br>
+                    Kav-1. Gunung Sahari,<br>
+                    Kemayoran. <br>
+                    Jakarta 10610<br>
+                    Telp.(021)29559100
+                </p> 
+            </div>
+        </footer>
+    </body>
+</html>
