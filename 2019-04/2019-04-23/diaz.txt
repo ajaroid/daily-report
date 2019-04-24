@@ -1,0 +1,3 @@
+ report 23-04-2019
+
+belajar sql : group by, distinct keyword, sorting results.
