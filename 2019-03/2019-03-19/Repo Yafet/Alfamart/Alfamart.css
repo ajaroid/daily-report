@@ -1,0 +1,399 @@
+body{
+    background-color:#ec0928;
+    font-family: Calibri, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#halaman{
+    margin-top:-8px;
+    margin-right:-10px;
+    margin-left:2px;
+    background-color:white;
+    height:3800px;
+}
+
+#header{
+    background-color: #ec0928;
+    width: 100%;
+    height: 104px;
+}
+.logo-alf{
+    width: 150px;
+    height: 58px;
+    background-repeat: no-repeat;
+    margin: 23px 0px;
+    float: left;
+}
+.Bahasa{
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.callcenter{
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+#cari{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 230px;
+    padding: 10px 35px 10px 10px;
+    position: relative;
+    background-color: #fff;
+    float: right;
+    margin-top: 35px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    color: rgb(5, 211, 238);
+    font-style: italic;
+}
+#menu{
+    background: linear-gradient(white, #f1f0f0);
+    border-radius: 0px;
+    float: left;
+    height: 50px;
+    width: 100%;
+}
+.navbar .mn {
+    display:inline;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    float: left;
+}
+ul li{
+    list-style-type: none;
+}
+.alfonln{
+    float:right;
+    margin-right: -15px;
+    margin-top:-6px;
+}
+#slider .sldr{
+    width: 100%;
+}
+.slogan{
+    background-color:white;
+    position: relative;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    width:22%;
+    float:left;
+}
+.slogan-desc{
+    position: absolute;
+    top: 58%;
+    width: 300px;
+    height: 30%;
+    background: #fff;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.imgslogan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:350px;
+    height:200px;
+}
+.pilihan{
+    background-color: white;
+    height:auto;
+}
+.dokumen{
+    padding-right:20px;
+    padding-left:15px;
+    background-color:white;
+    border-right: 1px solid black;
+    display: block;
+    margin-bottom: 20px;
+    width: 30.60%;
+    float: left;
+}
+.judul-dokumen{
+    background-color:#ccc;
+    padding: 3px 0px;
+}
+.judul-dokumen .text-judul-dokumen{
+    font-weight: bold;
+    color: #fff;
+    font-size: 15pt;
+    text-decoration: none;
+    background: red;
+    padding: 5px 10px;
+}
+.Lainya{
+    float: right;
+    font-style: italic;
+    color: #ec0928;
+    font-weight: normal;
+    font-size: 11pt;
+    background: none;
+    padding: 5px 10px;
+}
+.img-berita-corporate{
+    width:410px;
+}
+.judul-isi-berita{
+    float:left;
+    width:60%;
+}
+.judul-isi-berita{
+    font-weight: bold;
+    font-size: 15pt;
+    line-height: 17pt;
+    margin-top:10px;
+}
+.bgdokumen{
+    background-color: white;
+    height:1250px;
+}
+.form-control{
+    display: block;
+    width: 80%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left:30px;
+}
+.button{
+    border-radius: 5px;
+    background-color: #ec0928;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    border: none;
+    margin-left:30px;
+    margin-top: 20px;
+}
+.deskripsi{
+    padding: 30px 20px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+.bg{
+    margin-top:750px;
+    margin-left:15px;
+    margin-right:15px;
+}
+hr{
+    width:100%;
+    height:30px;
+    background-color:#ec0928;
+    border:none;
+    margin-right:10px;
+}
+.aplikasi{
+    border: 1px solid gray;
+    width:20%;
+    float:left;
+    margin-left:20px;
+    margin-top:50px;
+    text-align: center;
+}
+.penghargaan{
+    width:30%;
+    float:right;
+    margin-left:20px;
+    margin-top:50px;
+    margin-right:20px;
+}
+.footer{
+    width:100%;
+    background-color:yellow;
+    margin-top:50px;
+    float:left;
+    text-align: center;
+}
+.Donasi-Konsumen-Alfamart a{
+    font-size:16pt; 
+    font-weight:bold;
+    color: black;
+    margin-top:5px;
+}
+.tgl-donasi-konsumen-alfamart{
+    line-height: 20px;
+}
+.tgl-donasi-konsumen-alfamart p{
+    font-style: italic; 
+    font-size 14px; 
+    color: #666;
+}
+.gambar-saluran-donasi-konsumen-alfamart{
+    width:150px; 
+    float:left; 
+    margin-right:10px;
+}
+.judul-isi-berita p{
+    font-size:10pt; 
+    color:#666;
+}
+.tgl-judul-isi-berita{
+    font-style: italic;
+}
+.gambar-jakarta-pengelola-jaringan-intel-alfamart{
+    width:150px; 
+    float:left; 
+    margin-right:10px;
+}
+.text-berita-corporate{
+    font-size:16pt; 
+    font-weight:bold;
+    color: black;
+    margin-top:5px;
+}
+.tgl-berita-corporate{
+    font-style: italic; 
+    font-size 14px; 
+    color: #666;
+}
+.gambar-isi-berita-kegiatan-komunitas{
+    float:left; 
+    width:150px;
+}
+.judul-isi-berita-kegiatan-komunitas{
+    float:left; 
+    margin-top: 25px; 
+    margin-left:10px; 
+    width:auto;
+}
+.judul-isi-berita-kegiatan-komunitas a{
+    font-size:12pt; 
+    font-weight: bold;
+}
+.tgl-isi-berita-kegiatan-komunitas{
+    font-size:10pt; 
+    font-style:italic; 
+    color:#666; 
+    line-height: 50px;
+}
+.logo{
+    float:left; 
+    width:50%;
+    margin-bottom: 10px; 
+    text-align:center;
+}
+.logo img{
+    width:130px;
+}
+.penghargaan img{
+    width:110px;
+}
+.gambar-a{
+    margin-left:30px; 
+    margin-right:10px; 
+    margin-bottom:40px; 
+    float:left;
+    width:25px;
+}
+.gambar-b{
+    margin-left:10px; 
+    margin-right:10px; 
+    margin-bottom:40px; 
+    float:left;
+    width:25px;
+}
+.gambar-c{
+    margin-left:10px; 
+    margin-right:10px; 
+    margin-bottom:40px; 
+    float:left;
+    width:25px;
+}
+.gambar-d{
+    margin-left:10px; 
+    margin-right:10px; 
+    margin-bottom:40px; 
+    float:left;
+    width:25px;
+}
+.gambar-e{
+    margin-left:10px; 
+    margin-right:30px; 
+    margin-bottom:40px; 
+    float:left;
+    width:25px;
+}
+.aplikasi p{
+    margin-top:40px;
+}
+.gambar-hp{
+    margin-left:15px; 
+    margin-right:15px; 
+    margin-top:15px; 
+    margin-bottom:15px; 
+    float:left;
+    width:45px;
+}
+.deskripsi-aplikasi-mobile{
+    float:left; 
+    margin-top:25px;
+}
+.deskripsi-ios-android{
+    float:left; 
+    color: gray;
+}
+.deskripsi-promo{
+    padding-left:20px; 
+    padding-top:20px; 
+    height:80px;
+    background-color:#ccc; 
+}
+.waralaba{
+    float:left; 
+    margin-left:10px; 
+    width: 49%;
+}
+.gambar-waralaba{
+    margin-top:5px;
+}
+.gambar-waralaba img{
+    width:100%;
+}
+.program{
+    float:left; 
+    margin-top:20px; 
+    margin-left:10px; 
+    width: 60%;
+}
+.gambar-program{
+    margin-top:5px;
+}
+.gambar-program img{
+    width:100%;
+}
+.undian{
+    float:left; 
+    margin-top:20px; 
+    margin-left:30px; 
+    width:36.5%; 
+    height: 350px;
+}
+.judul-isi-undian{
+    padding-left:20px; 
+    color: #666; 
+    font-size: 14pt; 
+    font-weight: bold; 
+    line-height: 13pt;
+}
+.deskripsi-undian{
+    padding-left:30px; 
+    color: #777; 
+    font-weight: normal;
+}

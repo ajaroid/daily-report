@@ -1,231 +1,8 @@
 <html>
 <head>
     <title>Alfamart, Minimarket Indonesia - Belanja Puas Harga Pas</title>
+    <link rel="stylesheet" href="Alfamart.css">
 </head>
-<style>
-    body{
-        background-color:#ec0928;
-        font-family: Calibri, sans-serif;
-    }
-    a{
-        text-decoration: none;
-        color:black;
-    }
-    #halaman{
-        margin-top:-8px;
-        margin-right:-10px;
-        margin-left:2px;
-        background-color:white;
-        height:3800px;
-    }
-
-    #header{
-        background-color: #ec0928;
-        width: 100%;
-        height: 104px;
-    }
-    .logo-alf{
-        width: 150px;
-        height: 58px;
-        background-repeat: no-repeat;
-        margin: 23px 0px;
-        float: left;
-    }
-    .Bahasa{
-        float: left;
-        margin-top: 40px;
-        margin-left: 15px;
-    }
-    .callcenter{
-        float: right;
-        margin-top: 25px;
-        margin-right: 15px;
-    }
-    #cari{
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        width: 230px;
-        padding: 10px 35px 10px 10px;
-        position: relative;
-        background-color: #fff;
-        float: right;
-        margin-top: 35px;
-        box-sizing: border-box;
-        margin-right: 10px;
-        color: rgb(5, 211, 238);
-        font-style: italic;
-    }
-    #menu{
-        background: linear-gradient(white, #f1f0f0);
-        border-radius: 0px;
-        float: left;
-        height: 50px;
-        width: 100%;
-    }
-    .navbar .mn {
-        display:inline;
-        margin: 0;
-        padding-top: 0;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 0;
-        float: left;
-    }
-    ul li{
-        list-style-type: none;
-    }
-    .alfonln{
-        float:right;
-        margin-right: -15px;
-        margin-top:-6px;
-    }
-    #slider .sldr{
-        width: 100%;
-    }
-    .slogan{
-        background-color:white;
-        position: relative;
-        overflow: hidden;
-        padding-right: 20px;
-        padding-left: 20px;
-        width:22%;
-        float:left;
-    }
-    .slogan-desc{
-        position: absolute;
-        top: 58%;
-        width: 300px;
-        height: 30%;
-        background: #fff;
-        text-align: center;
-        opacity: 0.8;
-        font-weight: bold;
-        font-size: 18px;
-        color: #333;
-    }
-    .imgslogan{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width:350px;
-        height:200px;
-    }
-    .pilihan{
-        background-color: white;
-        height:auto;
-    }
-    .dokumen{
-        padding-right:20px;
-        padding-left:15px;
-        background-color:white;
-        border-right: 1px solid black;
-        display: block;
-        margin-bottom: 20px;
-        width: 30.60%;
-        float: left;
-    }
-    .judul-dokumen{
-        background-color:#ccc;
-        padding: 3px 0px;
-    }
-    .judul-dokumen .text-judul-dokumen{
-        font-weight: bold;
-        color: #fff;
-        font-size: 15pt;
-        text-decoration: none;
-        background: red;
-        padding: 5px 10px;
-    }
-    .Lainya{
-        float: right;
-        font-style: italic;
-        color: #ec0928;
-        font-weight: normal;
-        font-size: 11pt;
-        background: none;
-        padding: 5px 10px;
-    }
-    .img-berita-corporate{
-        width:410px;
-    }
-    .judul-isi-berita{
-        float:left;
-        width:60%;
-    }
-    .judul-isi-berita{
-        font-weight: bold;
-        font-size: 15pt;
-        line-height: 17pt;
-        margin-top:10px;
-    }
-    .bgdokumen{
-        background-color: white;
-        height:1250px;
-    }
-    .form-control{
-        display: block;
-        width: 80%;
-        height: 34px;
-        padding: 6px 12px;
-        font-size: 14px;
-        line-height: 1.42857143;
-        color: #555;
-        background-color: #fff;
-        background-image: none;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        margin-left:30px;
-    }
-    .button{
-        border-radius: 5px;
-        background-color: #ec0928;
-        color: white;
-        padding: 10px 15px;
-        font-size: 15px;
-        font-weight: normal;
-        line-height: 1.4;
-        border: none;
-        margin-left:30px;
-        margin-top: 20px;
-    }
-    .deskripsi{
-        padding: 30px 20px;
-        background-color: #eee;
-        margin-bottom: 20px;
-    }
-    .bg{
-        margin-top:750px;
-        margin-left:15px;
-        margin-right:15px;
-    }
-    hr{
-        width:100%;
-        height:30px;
-        background-color:#ec0928;
-        border:none;
-        margin-right:10px;
-    }
-    .aplikasi{
-        border: 1px solid gray;
-        width:20%;
-        float:left;
-        margin-left:20px;
-        margin-top:50px;
-    }
-    .penghargaan{
-        width:30%;
-        float:right;
-        margin-left:20px;
-        margin-top:50px;
-        margin-right:20px;
-    }
-    .footer{
-        width:100%;
-        background-color:yellow;
-        margin-top:50px;
-        float:left;
-    }
-</style>
-
 <body>
     <div id="halaman">
         <div id="header">
@@ -235,6 +12,7 @@
             <img src="callcenter.png" class="callcenter">
             <input id="cari" type="text" placeholder="Cari Promo, Berita, dan info terbaru">
         </div>
+
         <div id="nav-bar">
             <div id="menu">
                 <ul class="navbar">
@@ -254,11 +32,13 @@
                 </ul>
             </div>
         </div>
+
         <div class="pilihan">
-        <div id="slider">
-            <img src="1.png" class="sldr">
+            <div id="slider">
+                <img src="1.png" class="sldr">
+            </div>
         </div>
-        </div>
+
         <div class="slogan">
             <img src="alfa_all.jpg" class="imgslogan">
             <a href="#">
@@ -267,6 +47,7 @@
                 </div>
             </a>
         </div>
+
         <div class="slogan">
             <img src="loyalty.jpg" class="imgslogan">
             <a href="#">
@@ -275,6 +56,7 @@
                 </div>
             </a>
         </div>
+
         <div class="slogan">
             <img src="sq.jpg" class="imgslogan">
             <a href="#">
@@ -283,6 +65,7 @@
                 </div>
             </a>
         </div>
+
         <div class="slogan">
             <img src="brand.jpg" class="imgslogan">
             <a href="#">
@@ -297,191 +80,216 @@
                 <a href="#BC" class="text-judul-dokumen">Berita Corporate</a>
                 <a href="#Lainya" class="Lainya">Lainya >></a>
             </div>
-            <img src="fit.jpg" class="img-berita-corporate">
-                <div><a href="#" 
-                style="
-                font-size:16pt; 
-                font-weight:bold;
-                color: black;
-                margin-top:5px;"> Donasi Konsumen Alfamart, Bentuk Kepedulian Sesama</a></div>
-                <div style="line-height: 20px;"><p style="font-style: italic; font-size 14px; color: #666;">Selasa, 12/02/19 15:06 WIB</p></div>
-                <div><p>JAKARTA - Bantuan sosial dari konsumen yang di himpun oleh
-                    Alfamart melalui Donasi Konsumen sangat memberikan..
-                </p></div>
-
-                <img src="fit1.2.jpg" style="width:150px; float:left; margin-right:10px;">
-                <div class="judul-isi-berita">
-                    <a href="#">
-                        SALURKAN DONASI KONSUMEN ALFAMART MELALUI LAZISMU
-                    </a>
-                    <p style="font-size:10pt; font-style:italic; font-color:#666;">
+                <img src="fit.jpg" class="img-berita-corporate">
+            <div class="donasi-konsumen-alfamart">
+                <a href="#"> Donasi Konsumen Alfamart, Bentuk Kepedulian Sesama</a>
+            </div>
+            <div class="tgl-donasi-konsumen-alfamart">
+                <p>Selasa, 12/02/19 15:06 WIB</p>
+            </div>
+            <div>
+                <p>JAKARTA - Bantuan sosial dari konsumen yang di himpun oleh
+                Alfamart melalui Donasi Konsumen sangat memberikan..
+                </p>
+            </div>
+                <img src="fit1.2.jpg" class="gambar-saluran-donasi-konsumen-alfamart">
+            <div class="judul-isi-berita">
+                <a href="#">
+                    SALURKAN DONASI KONSUMEN ALFAMART MELALUI LAZISMU
+                </a>
+                <p class="tgl-judul-isi-berita">
                         Rabu, 07/11/18 13:32 WIB
-                    </p>
-                    <p style="font-size:10pt; font-color:#666;">PT.Sumber Alfaria Trijaya Tbk bekerja sama dengan Lembaga Amil Zakat, Infaq, dan Shadaqah Muhammadyah...</a>
-                </div>
+                </p>
+                <p>PT.Sumber Alfaria Trijaya Tbk bekerja sama dengan Lembaga Amil Zakat, Infaq, dan Shadaqah Muhammadyah...</a>
+            </div>
 
-                <img src="fit1.3.jpg" style="width:150px; float:left; margin-right:10px;">
-                <div class="judul-isi-berita">
-                    <a href="#">
-                        JAKARTA - Pengelola jaringan ritel Alfamart, PT Sumber Alfaria Trijaya Tbk mengajak masyarakat luas
-                    </a>
-                    <p style="font-size:10pt; font-style:italic; font-color:#666;">
-                        Jumat, 31/08/18 08:56 WIB
-                    </p>
-                    <p style="font-size:10pt; font-color:#666;">JAKARTA - Pengelola jaringan ritel Alfamart, PT Sumber Alfaria Trijaya Tbk mengajak masyarakat luas berpartisipasi</a>
-                </div>
+                <img src="fit1.3.jpg" class="gambar-jakarta-pengelola-jaringan-intel-alfamart">
+            <div class="judul-isi-berita">
+                <a href="#">
+                    JAKARTA - Pengelola jaringan ritel Alfamart, PT Sumber Alfaria Trijaya Tbk mengajak masyarakat luas
+                </a>
+                <p class="tgl-judul-isi-berita">
+                    Jumat, 31/08/18 08:56 WIB
+                </p>
+                <p>
+                    JAKARTA - Pengelola jaringan ritel Alfamart, PT Sumber Alfaria Trijaya Tbk mengajak masyarakat luas berpartisipasi
+                </p>
+            </div>
         </div>
         <div class="bgdokumen">
-        <div class="dokumen">
-            <div class="judul-dokumen">
-                <a href="#BC" class="text-judul-dokumen">Kegiatan Komunitas</a>
-                <a href="#Lainya" class="Lainya">Lainya >></a>
-            </div>
-            <img src="fit2.jpg" class="img-berita-corporate">
-            <a href="#"><p style="
-            font-size:16pt; 
-            font-weight:bold;
-            color: black;
-            margin-top:5px;">Hari Gizi Nasional 2017</p></a>
-            <p style="font-style: italic; font-size 14px; color: #666;">Senin, 27/03/17 11:29 WIB</p>
+            <div class="dokumen">
+                <div class="judul-dokumen">
+                    <a href="#BC" class="text-judul-dokumen">Kegiatan Komunitas</a>
+                    <a href="#Lainya" class="Lainya">Lainya >></a>
+                </div>
+                <img src="fit2.jpg" class="img-berita-corporate">
+                <a href="#">
+                    <p class="text-berita-corporate">
+                        Hari Gizi Nasional 2017
+                    </p>
+                </a>
+                <p class="tgl-berita-corporate">
+                    Senin, 27/03/17 11:29 WIB
+                </p>
 
-            <img src="fit2.2.jpg" style="float:left; width:150px;">
-            <div style="float:left; margin-top: 25px; margin-left:10px; width:auto;">
-            <a href="#" style="font-size:12pt; font-weight: bold;">Kejutan Awal Tahun</a>
-            <p style="font-size:10pt; font-style:italic; font-color:#666; line-height: 50px;"> Senin, 27/03/17 11:26 WIB</p>
-            </div>
+                <img src="fit2.2.jpg" class="gambar-isi-berita-kegiatan-komunitas">
+                <div class="judul-isi-berita-kegiatan-komunitas">
+                    <a href="#">
+                        Kejutan Awal Tahun
+                    </a>
+                    <p class="tgl-isi-berita-kegiatan-komunitas"> 
+                        Senin, 27/03/17 11:26 WIB
+                    </p>
+                </div>
 
-            <img src="fit2.3.jpg" style="float:left; width:150px;">
-            <div style="float:left; margin-top: 25px; margin-left:10px; width:auto;">
-            <a href="#" style="font-size:12pt; font-weight: bold;">Lomba Mewarnai Bersama</a>
-            <p style="font-size:10pt; font-style:italic; font-color:#666; line-height: 50px;"> Senin, 27/03/17 11:02 WIB</p>
-            </div>
+                <img src="fit2.3.jpg" class="gambar-isi-berita-kegiatan-komunitas">
+                <div class="judul-isi-berita-kegiatan-komunitas">
+                    <a href="#">
+                        Lomba Mewarnai Bersama
+                    </a>
+                    <p class="tgl-isi-berita-kegiatan-komunitas"> 
+                        Senin, 27/03/17 11:02 WIB
+                    </p>
+                </div>
 
-            <img src="fit2.4.jpg" style="float:left; width:150px;">
-            <div style="float:left; margin-top: 25px; margin-left:10px; width:auto;">
-            <a href="#" style="font-size:12pt; font-weight: bold;">Lomba Mewarnai Coco Crunch</a>
-            <p style="font-size:10pt; font-style:italic; font-color:#666; line-height: 50px;"> Senin, 27/03/17 09:08 WIB</p>
+                <img src="fit2.4.jpg" class="gambar-isi-berita-kegiatan-komunitas">
+                <div class="judul-isi-berita-kegiatan-komunitas">
+                    <a href="#" >
+                        Lomba Mewarnai Coco Crunch
+                    </a>
+                    <p class="tgl-isi-berita-kegiatan-komunitas"> 
+                        Senin, 27/03/17 09:08 WIB
+                    </p>
+                </div>
+                
             </div>
-            
+            <div class="dokumen">
+                <div class="judul-dokumen">
+                    <a href="#BC" class="text-judul-dokumen">Layanan</a>
+                    <a href="#Lainya" class="Lainya">Lainya >></a>
+                </div>
+                <img src="fit3.jpg" class="img-berita-corporate">
+
+                <div class="logo">
+                    <img src="a.jpg">
+                </div>
+                <div class="logo">
+                    <img src="b.jpg">
+                </div>
+                <div class="logo">
+                    <img src="c.jpg">
+                </div>
+                <div class="logo">
+                    <img src="d.jpg">
+                </div>
+                <div class="logo">
+                    <img src="e.jpg">
+                </div>
+                <div class="logo">
+                    <img src="f.jpg">
+                </div>
+            </div>
         </div>
 
-        <div class="dokumen">
-            <div class="judul-dokumen">
-                <a href="#BC" class="text-judul-dokumen">Layanan</a>
-                <a href="#Lainya" class="Lainya">Lainya >></a>
-            </div>
-            <img src="fit3.jpg" class="img-berita-corporate">
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="a.jpg" width="200px;">
-            </div>
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="b.jpg" width="200px;">
-            </div>
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="c.jpg" width="200px;">
-            </div>
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="d.jpg" width="200px;">
-            </div>
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="e.jpg" width="200px;">
-            </div>
-            <div style="float:left; width:50% height: 145px; margin-bottom: 10px; text-align:center;">
-            <img src="f.jpg" width="200px;">
-            </div>
-        </div>
-        </div>
-
-        <div class="judul-dokumen" bgcolor="white">
+        <div class="judul-dokumen">
             <a href="#BC" class="text-judul-dokumen">Promo</a>
             <a href="#Lainya" class="Lainya">Lainya >></a>
-            <div bgcolor="#ccc" style="padding-left:20px; padding-top:20px; height:80px;">
-            <p>No Promo Item Available...</p>
+            <div class="deskripsi-promo">
+                <p>No Promo Item Available...</p>
             </div>
         </div>
-    <br>
-        <div bgcolor="white" >
-        <div class="judul-dokumen" style="float:left; margin-left:10px; width: 49%;">
-            <a href="#" class="text-judul-dokumen">Waralaba</a>
-            <div style="margin-top:5px;"><img src="waralaba.png" width="100%"></div>
-        </div>
+
+            <br>
+            
+        <div>
+            <div class="judul-dokumen waralaba">
+                <a href="#" class="text-judul-dokumen">Waralaba</a>
+                <div class="gambar-waralaba">
+                    <img src="waralaba.png">
+                </div>
+            </div>
         </div>
 
-        <div bgcolor="white" >
-        <div class="judul-dokumen" style="float:left; margin-left:10px; width: 49%;">
-            <a href="#" class="text-judul-dokumen">Pengumuman Pemenang</a>
-            <div style="margin-top:5px;"><img src="pengumuman-pemenang.jpg" width="100%"></div>
-        </div>
-        </div>
-
-        <div bgcolor="white">
-        <div class="judul-dokumen" style=" float:left; margin-top:20px; margin-left:10px; width: 60%;">
-            <a href="#" class="text-judul-dokumen">Pengumuman Pemenang</a>
-            <div style="margin-top:5px;"><img src="pengumuman-pemenang.jpg" width="100%"></div>
-        </div>
+        <div>
+            <div class="judul-dokumen waralaba">
+                <a href="#" class="text-judul-dokumen">Pengumuman Pemenang</a>
+                <div class="gambar-waralaba">
+                    <img src="pengumuman-pemenang.jpg">
+                </div>
+            </div>
         </div>
 
-        <div bgcolor="white">
-        <div class="judul-dokumen" style=" float:left; margin-top:20px; margin-left:30px; width:36.5%; height: 350px;">
-                <a href="#" class="text-judul-dokumen">Undian</a>
+        <div>
+            <div class="judul-dokumen program">
+                <a href="#" class="text-judul-dokumen">Program</a>
+                <div class="gambar-program">
+                    <img src="pengumuman-pemenang.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="judul-dokumen undian">
+                    <a href="#" class="text-judul-dokumen">Undian</a>
                 <div>
-                    <p style="padding-left:20px; color: #666; font-size: 14pt; font-weight: bold; line-height: 13pt;"> Cek Nomor Undian Program Alfamart Anda</p>
-                    <p style="padding-left:30px; color: #777; font-weight: normal;">Nama Program</p>
+                        <p class="judul-isi-undian"> Cek Nomor Undian Program Alfamart Anda</p>
+                        <p class="deskripsi-undian">Nama Program</p>
                     <select class="form-control">
                         <option value="MENSFAIR 2018">MENSFAIR</option>
                     </select>
-                    <p style="padding-left:30px; color: #777; font-weight: normal;">No.Handphone (+62)</p>
-                    <input class="form-control" placeholder="ketik no. telepon anda. contoh: 812345678">
-                    <button class="button" type="submit">Lihat</button>
+                        <p class="deskripsi-undian">No.Handphone (+62)</p>
+                        <input class="form-control" placeholder="ketik no. telepon anda. contoh: 812345678">
+                        <button class="button" type="submit">Lihat</button>
                 </div>
+            </div>
         </div>
+
+        <div class="bg">
+            <div class="deskripsi">
+                <b>Bersama Alfamart, Alfamartku Memudahkan Belanja Anda</b>
+                <br>
+                <br>
+                Salah satu mitra belanja masyarakat Indonesia yang sudah eksis selama 17 tahun adalah Alfamart Indonesia. Alfamart Indonesia adalah jaringan minimarket lokal yang memiliki sistem waralaba. Waralaba Alfamart sendiri, hingga kini jumlahnya sudah mencapai puluhan ribu gerai di Indonesia. Maka tak heran jika Anda menemukan gerai waralaba Alfamart yang tersebar pada hampir seluruh penjuru kota. Atas kepercayaan masyarakat terhadap kualitas layanan yang diberikan oleh Alfamart Indonesia, tahun lalu waralaba Alfamart pun berhasil memperoleh penghargaan Top Brand Award 2015.
+                <br>
+                <br>
+                Banyak fasilitas yang bisa diperoleh dengan berbelanja di Alfamart. Anda bisa mendapatkan berbagai layanan Alfamart yang disiapkan dengan standar pelayanan yang berkualitas.Seperti tersedianya promo Alfamart yang terus berganti di hampir setiap hari, dan kartu belanja Alfamartku yang memberikan keuntungan lebih dari biasanya. Alfamart Indonesia juga membuka program investasi Alfamart yang memberi peluang bagi Anda peminat bisnis waralaba. Di luar perihal layanan untuk konsumen saat berbelanja, Alfamart juga membetuk suatu wadah untuk menyalurkan bantuan kepada sesama melalui CSR Alfamart. 
+                <br>
+                <br>
+                Berbagai kegiatan dan program Alfamart memang sengaja dirancang khusus untuk memenuhi berbagai kebutuhan masyarakat Indonesia. Apalagi, Alfamart telah berkomitmen untuk menjadi Alfamart Sahabat Indonesia, mitra belanja Anda satu-satunya. Dapatkan kemudahan berbelanja di Alfamart dengan berbagai layanan Alfamart yang akan memanjakan keluarga Anda dalam memenuhi kebutuhan sehari-hari. Pun, semua produk yang ditawarkan Alfamart selalu terjangkau harganya. Alfamart Indonesia memiliki kartu Alfamartku yang akan memberikan fasilitas lebih untuk Anda ketika berbelanja di Alfamart. Anda juga bisa bergabung dengan investasi Alfamart. Melalui Program CSR Alfamart, minimarket berslogan “Belanja Puas Harga Pas” ini selalu menggalakkan budaya memberi untuk orang-orang yang membutuhkan.
+                <br>
+                <br>
+                Alfamart Sahabat Indonesia saat ini selalu berupaya untuk menjadi mitra belanja Anda dengan jaringan minimarket yang tersebar ke seluruh pelosok agar lebih mudah dijangkau oleh masyarakat luas. Alfamart Indonesia akan terus membuat Anda selalu merasa nyaman belanja di Alfamart. Layanan Alfamart dapat diakses oleh semua lapisan masyarakat luas tanpa pengecualian dan kami menerima segala saran dan masukan yang diberikan oleh masyarakat. Dengan menggunakan kartu member Alfamartku, setiap harinya Anda bisa menikmati program promo Alfamart yang akan memberikan diskon tambahan setiap produk yang berada pada program promo. Program investasi Alfamart dan CSR Alfamart adalah program unggulan tambahan dari kami dengan harapan Alfamart bisa lebih dekat dengan masyarakat Indonesia. 
+                <br>
+                <br>
+                Saat ini program CSR Alfamart sudah kami salurkan dengan berbagai kegiatan seperti kegiatan sosial yang rutin akan kami lakukan. Dimana dana tersebut diperoleh dari sebagian dari potongan belanja di Alfamart yang sudah Anda bayarkan. Alfamart Sahabat Indonesia akan terus berupaya melakukan kegiatan layanan Alfamart yang diharapkan dapat membantu masyarakat yang membutuhkan. Promo Alfamart dengan menggunakan fasilitas kartu Alfamartku dapat digunakan untuk semua member Alfamart Indonesia di seluruh cabang Alfamart, dimana cabang Alfamart Indonesia tersebut merupakan hasil kerjasama investasi Alfamart dengan sahabat Indonesia.
+                <br>
+                <br>
+                Kami Alfamart Indonesia akan terus berupaya untuk menyediakan layanan Alfamart yang menyenangkan untuk menemani Anda ketika belanja di Alfamart. Alfamart sahabat indonesia akan terus berupaya melakukan perbaikan yang akan selalu kami tingkatkan. Dan kami juga akan terus menambah fitur layanan kami dan memperbaiki sistem Alfamartku, promo Alfamart, CSR Alfamart, investasi Alfamart untuk sahabat Alfamart. Kami akan berharap bisa menyediakan semua kebutuhan Anda dengan sebaik mungkin dan untuk memudahkan Anda sekelurga dalam berbelanja kebutuhan keluarga dengan harga yang ekonomis dan bersahabat serta kami sangat mengharapkan segala hal yang dapat Anda berikan baik berupa saran dan kritik untuk menjadi perbaikan kami dalam melayani Anda sekeluarga. 
+            </div>
         </div>
-    <div class="bg">
-        <div class="deskripsi">
-            <b>Bersama Alfamart, Alfamartku Memudahkan Belanja Anda</b>
-            <br>
-            <br>
-            Salah satu mitra belanja masyarakat Indonesia yang sudah eksis selama 17 tahun adalah Alfamart Indonesia. Alfamart Indonesia adalah jaringan minimarket lokal yang memiliki sistem waralaba. Waralaba Alfamart sendiri, hingga kini jumlahnya sudah mencapai puluhan ribu gerai di Indonesia. Maka tak heran jika Anda menemukan gerai waralaba Alfamart yang tersebar pada hampir seluruh penjuru kota. Atas kepercayaan masyarakat terhadap kualitas layanan yang diberikan oleh Alfamart Indonesia, tahun lalu waralaba Alfamart pun berhasil memperoleh penghargaan Top Brand Award 2015.
-            <br>
-            <br>
-            Banyak fasilitas yang bisa diperoleh dengan berbelanja di Alfamart. Anda bisa mendapatkan berbagai layanan Alfamart yang disiapkan dengan standar pelayanan yang berkualitas.Seperti tersedianya promo Alfamart yang terus berganti di hampir setiap hari, dan kartu belanja Alfamartku yang memberikan keuntungan lebih dari biasanya. Alfamart Indonesia juga membuka program investasi Alfamart yang memberi peluang bagi Anda peminat bisnis waralaba. Di luar perihal layanan untuk konsumen saat berbelanja, Alfamart juga membetuk suatu wadah untuk menyalurkan bantuan kepada sesama melalui CSR Alfamart. 
-            <br>
-            <br>
-            Berbagai kegiatan dan program Alfamart memang sengaja dirancang khusus untuk memenuhi berbagai kebutuhan masyarakat Indonesia. Apalagi, Alfamart telah berkomitmen untuk menjadi Alfamart Sahabat Indonesia, mitra belanja Anda satu-satunya. Dapatkan kemudahan berbelanja di Alfamart dengan berbagai layanan Alfamart yang akan memanjakan keluarga Anda dalam memenuhi kebutuhan sehari-hari. Pun, semua produk yang ditawarkan Alfamart selalu terjangkau harganya. Alfamart Indonesia memiliki kartu Alfamartku yang akan memberikan fasilitas lebih untuk Anda ketika berbelanja di Alfamart. Anda juga bisa bergabung dengan investasi Alfamart. Melalui Program CSR Alfamart, minimarket berslogan “Belanja Puas Harga Pas” ini selalu menggalakkan budaya memberi untuk orang-orang yang membutuhkan.
-            <br>
-            <br>
-            Alfamart Sahabat Indonesia saat ini selalu berupaya untuk menjadi mitra belanja Anda dengan jaringan minimarket yang tersebar ke seluruh pelosok agar lebih mudah dijangkau oleh masyarakat luas. Alfamart Indonesia akan terus membuat Anda selalu merasa nyaman belanja di Alfamart. Layanan Alfamart dapat diakses oleh semua lapisan masyarakat luas tanpa pengecualian dan kami menerima segala saran dan masukan yang diberikan oleh masyarakat. Dengan menggunakan kartu member Alfamartku, setiap harinya Anda bisa menikmati program promo Alfamart yang akan memberikan diskon tambahan setiap produk yang berada pada program promo. Program investasi Alfamart dan CSR Alfamart adalah program unggulan tambahan dari kami dengan harapan Alfamart bisa lebih dekat dengan masyarakat Indonesia. 
-            <br>
-            <br>
-            Saat ini program CSR Alfamart sudah kami salurkan dengan berbagai kegiatan seperti kegiatan sosial yang rutin akan kami lakukan. Dimana dana tersebut diperoleh dari sebagian dari potongan belanja di Alfamart yang sudah Anda bayarkan. Alfamart Sahabat Indonesia akan terus berupaya melakukan kegiatan layanan Alfamart yang diharapkan dapat membantu masyarakat yang membutuhkan. Promo Alfamart dengan menggunakan fasilitas kartu Alfamartku dapat digunakan untuk semua member Alfamart Indonesia di seluruh cabang Alfamart, dimana cabang Alfamart Indonesia tersebut merupakan hasil kerjasama investasi Alfamart dengan sahabat Indonesia.
-            <br>
-            <br>
-            Kami Alfamart Indonesia akan terus berupaya untuk menyediakan layanan Alfamart yang menyenangkan untuk menemani Anda ketika belanja di Alfamart. Alfamart sahabat indonesia akan terus berupaya melakukan perbaikan yang akan selalu kami tingkatkan. Dan kami juga akan terus menambah fitur layanan kami dan memperbaiki sistem Alfamartku, promo Alfamart, CSR Alfamart, investasi Alfamart untuk sahabat Alfamart. Kami akan berharap bisa menyediakan semua kebutuhan Anda dengan sebaik mungkin dan untuk memudahkan Anda sekelurga dalam berbelanja kebutuhan keluarga dengan harga yang ekonomis dan bersahabat serta kami sangat mengharapkan segala hal yang dapat Anda berikan baik berupa saran dan kritik untuk menjadi perbaikan kami dalam melayani Anda sekeluarga. 
-        </div>
-    </div>
-    <hr>
+            <hr>
         <div class="Aplikasi">
-            <img src="hp.png" width="45px;" style="margin-left:15px; margin-right:15px; margin-top:15px; margin-bottom:15px; float: left;">
-            <a href="#" style="float:left; margin-top:25px;">Dapatkan Aplikasi Mobile <br>Alfagift</a>
-            <p style="float:left; color: gray;"> IOS o Android</p>
+            <img src="hp.png" class="gambar-hp">
+            <a href="#" class="deskripsi-aplikasi-mobile">Dapatkan Aplikasi Mobile <br>Alfagift</a>
+            <p class="deskripsi-ios-android"> IOS o Android</p>
         </div>
         <div class="Aplikasi">
-            <p align="center" style="margin-top:40px;">Ikuti kami</p>
-            <a href="#"><img src="fb_icon.png" width="25px;" style="margin-left:30px; margin-right:10px; margin-bottom:40px; float:left;"></a>
-            <a href="#"><img src="twit_icon.png" width="25px;" style="margin-left:10px; margin-right:10px; margin-bottom:40px; float:left;"></a>
-            <a href="#"><img src="line.png" width="25px;" style="margin-left:10px; margin-right:10px; margin-bottom:40px; float:left;"></a>
-            <a href="#"><img src="bbm.png" width="25px;" style="margin-left:10px; margin-right:10px; margin-bottom:40px; float:left;"></a>
-            <a href="#"><img src="instagram.png" width="25px;" style="margin-left:10px; margin-right:30px; margin-bottom:40px; float:left;"></a>
+            <p>Ikuti kami</p>
+            <a href="#"><img src="fb_icon.png" class="gambar-a"></a>
+            <a href="#"><img src="twit_icon.png" class="gambar-b"></a>
+            <a href="#"><img src="line.png" class="gambar-c"></a>
+            <a href="#"><img src="bbm.png" class="gambar-d"></a>
+            <a href="#"><img src="instagram.png" class="gambar-e"></a>
         </div>
 
         <div class="penghargaan">
-            <img src="1a.png" width="110px;">
-            <img src="2b.jpg" width="110px;">
-            <img src="3c.png" width="110px;">
+            <img src="1a.png">
+            <img src="2b.jpg">
+            <img src="3c.png">
         </div>
 
         <div class="footer">
-            <p align="center">Copyright ©2013 - 2019 PT. Sumber Alfaria Trijaya, Tbk</p>
+            <p>Copyright ©2013 - 2019 PT. Sumber Alfaria Trijaya, Tbk</p>
         </div>
     </div>
 </body>

@@ -1,0 +1,4 @@
+Rabu, 24 April 2019
+
+- Belajar Code SQL Standart 
+	referensi : www.tutorialspoint.com

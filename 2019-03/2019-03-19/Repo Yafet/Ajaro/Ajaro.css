@@ -1,0 +1,240 @@
+body{
+    font-family: Calibri;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#header{
+    text-align: center;
+    background-color:#222222;
+    color:white;
+    margin: -8px;
+    padding-top:19px;
+    padding-bottom: 19px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index:2;
+}
+.hdr{
+    list-style-type: none;
+    display: inline;
+    padding-left:20px;
+    padding-right:20px;
+}
+.ajaro-logo{
+    width:98.3px;
+    height:35px;
+    float:left;
+    padding-left:20px;
+    margin-top:-9px;
+    margin-right:-200px;
+}
+#home{
+    margin-top:8px;
+    margin-left:-8px;
+    width:1349px;
+    height:355px;
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-position: 45%;
+}
+.isi-header{
+    position: absolute;
+    top:138;
+    left:110;
+}
+.isi-header h3{
+    color:#ff7d0a;
+    font-size:20pt;
+}
+.isi-header p{
+    color:white;
+    line-height: 10px;
+}
+.isi-header button{
+    background-color: #f15b2a;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 0 40px;
+    height: 30px;
+    margin-top: 25px;
+}
+content{
+    margin: 0;
+    padding: 0;
+}
+.halaman{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.halaman-internship{
+    margin: 50px 30px;
+}
+.title-internship{
+    font-size: 20px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.isi-internship{
+    border-left: 2px solid #e0e0e0;
+    margin: 30px 0;
+    height:300px;
+}
+.internship{
+    text-align: center;
+}
+.internship .halaman{
+    width: auto;
+}
+.block{
+    margin-top: 0;
+}
+.title{
+    font-weight: 700;
+    font-size: 18px;
+}
+.isi-title{
+    margin-top: 35px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.desc-title{
+    padding: 0 50px;
+    width: 24%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.desc-title img{
+    width: 64px;
+}
+.desc{
+    font-size: 14px;
+    color: #828282;
+    line-height: 16px;
+    margin-top: 20px;
+}
+.selengkapnya {
+    text-decoration:none;
+    font-size: 15px;
+    color: #ff7d0a;
+    text-align: right;
+}
+.row-content-wrapper{
+    margin: 0 5%;
+}
+.halaman-mentor{
+    width: 45%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mentor-wrapper{
+    margin: 70px 20px 0;
+}
+.col-wrapper{
+    display: flex;
+}
+.avatar{
+    width: inherit;
+    height: inherit;
+    border: 3px solid #fbc300;
+    border-radius: 50%;
+    padding: 2px;
+}
+.avatar img{
+    width: 110px;
+    height: auto;
+}
+.quote-flex-align-center{
+    padding: 15px 33px 15px 70px;
+    background-color: #f2f2f2;
+    margin-left: -60px;
+    z-index: -1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.quote-flex-align-center p{
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+}
+.desc-wrapper .name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0 5px;
+    line-height: 19px;
+}
+.desc-wrapper .job{
+    color: #828282;
+    font-size: 12px;
+    line-height: 14px;
+}
+.content-wrapper{
+    margin: 0 32%;
+}
+.box-flex-align-justify-center{
+    margin: 50px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top:80px;
+}
+.testi-wrapper{
+    background-color: #fff;
+    padding: 11px 13px;
+    color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+.word {
+    font-size: 12px;
+    color: #4f4f4f;
+}
+.name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 0;
+    color: #828282;
+}
+.footer{
+    background-color: #333;
+    padding: 20px 0 15px;
+    color: #fff;
+    margin-top: 50px;
+    margin:-8px;
+}
+.block-sosmed{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copyright{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.address{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.block-sosmed img{
+    padding: 5px 15px;
+    width:30px;
+}
