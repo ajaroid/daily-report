@@ -1,0 +1,10 @@
+Kamis, 25-4-2019
+
+Belajar Code SQL Standart:
+	-Constraint
+	-Using Joint
+	-Union CLause
+	-NULL Values
+	-Truncate Table
+
+Referensi:"www.tutorialspoint.com".
