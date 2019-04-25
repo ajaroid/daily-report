@@ -1,0 +1,10 @@
+daily report
+
+	belajar sql:
+		-unions clause
+		-null values
+		-alias syntax
+		-truncute table
+		-using views
+
+	situs belajar dari: www.tutorialspoint.com
