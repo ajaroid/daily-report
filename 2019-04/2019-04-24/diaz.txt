@@ -1,0 +1,4 @@
+daily report 25-04-2019
+
+-belajar konsep website & urutan cara kerja membuat website
+-belajar sql: constraints & using joins di www.tutorialspoint.com
