@@ -1,0 +1,5 @@
+Laporan hari ini
+
+praktikum pembuatan table melalui pg admin4
+
+Kendalanya semua tutorial tampilan contoh nya gak ada yang sama seperti pgadmin4 saya, jadi banyak kendala yang tak terjawab oleh tutorial tadi.
