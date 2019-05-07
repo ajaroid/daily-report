@@ -1,0 +1,3 @@
+hari ini mengulang materi yang diberi mas andika tentang menjalanka php di cmd
+
+kendala nya belum bisa membaca error
