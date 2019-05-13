@@ -1,0 +1,5 @@
+report 9 mei
+
+belajar mengenai syntax oop dan menerapkanya id tools pg admin.
+
+kendala saat mencari error.
