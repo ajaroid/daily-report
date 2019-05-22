@@ -1,0 +1,5 @@
+report 21 mei 2019
+
+mengenali operator perbandingan pada PHP
+
+kendala belum paham cara penggunaan gerbang logika pada syntax PHP

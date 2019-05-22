@@ -1,0 +1,5 @@
+report 15 mei 2019
+
+mencermati fungsi insert dn update pada sql
+
+kendala tidak ada

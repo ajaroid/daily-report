@@ -1,0 +1,5 @@
+report 14 mei 2019
+
+mendefinisikan sql pada pgadmin
+
+kendala tidak ada hanya saja belum hafal sama syntax perintahnya
