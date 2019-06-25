@@ -1,0 +1,6 @@
+report 25 uni 2019
+
+
+- membuat database perpustakaan
+- kendalanya saat menginput data di detail penualan, serta salah langkah atau menggunakan query yang seharusnya tak digunakan
+- mencari referensi lagi secara mendetail agar tak melakukan kesalahan yang sama.
