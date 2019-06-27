@@ -1,0 +1,5 @@
+report 26 juni 2019
+
+-membuat database perpustakaan
+-kendalanya saat menginput data di detail buku
+-saya sudah mencoba menganalisa serta mencontoh dari beberapa sumber namun masih gagal, rencananya nanti malam meh lanut di kos, kalau masih bingung besok saya tanya sama mas yeri.
