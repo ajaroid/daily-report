@@ -1,0 +1,4 @@
+report 28 juni 2019
+
+-perihal query pengaturan waktu
+-belum ada masalah
