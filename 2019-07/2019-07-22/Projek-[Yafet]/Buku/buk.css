@@ -1,0 +1,16 @@
+body{
+	margin:0;
+	padding:0;
+}
+#header{
+	text-align:center;
+	font-size:30px;
+	width:100%;
+	border-bottom:1px double black;
+}
+#content{
+	margin-top:30px;
+}
+td{
+	padding:10px;
+}

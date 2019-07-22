@@ -1,0 +1,28 @@
+body{
+	margin:0;
+	padding:0;
+}
+#header{
+	text-align:center;
+	font-size:30px;
+	width:100%;
+	border-bottom:1px double black;
+}
+#content{
+	border:1px solid black;
+	height:300px;
+	width:300px;
+	margin-left:350px;
+	padding-top:30px;
+	text-align:right;
+	padding-right:30px;
+	padding-bottom:30px;
+	margin-top:50px;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+#operasi{
+	padding-left:30px;
+}

@@ -1,0 +1,11 @@
+Senin, 22 Juli 2019
+
+-Report Tugas Perpustakaan:
+	1.Tampilan UI
+	  (Anggota,Buku,Login,Menu,Peminjaman)
+-Kendala:
+	Belum bisa mengerjakan Code Proses nya di karenakan
+	terjadi kendala saat menginstal web server di PC
+	Secepat nya akan di tangani
+
+ 

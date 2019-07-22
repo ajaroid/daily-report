@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url("background-login.png");
+	background-size:100% 100%;
+	font-family:comic sans ms;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+#header{
+	margin-top: 30px;
+	padding-top:30px;
+	text-align: center;
+	font-size: 30pt;
+	height: 100px;
+	width: 99%;
+	background-color: black;
+	border:white solid;
+	color:white;
+}
+#peminjaman{
+	width:250px;
+	height:100px;
+	background-color:Red;
+	color:white;
+	font-family:comic sans ms;
+	text-align:center;
+	padding-top:75px;
+	margin-top:30px;
+	border-radius:25%;
+	font-size:15pt;
+	margin-left:38%;
+}
+#pengembalian{
+	width:250px;
+	height:100px;
+	background-color:gold;
+	color:white;
+	font-family:comic sans ms;
+	text-align:center;
+	padding-top:75px;
+	margin-top:-5%;
+	border-radius:25%;
+	font-size:15pt;
+	margin-left:5%;
+}
+#anggota{
+	width:250px;
+	height:100px;
+	background-color:Blue;
+	color:white;
+	font-family:comic sans ms;
+	text-align:center;
+	padding-top:75px;
+	margin-top:-173px;
+	border-radius:25%;
+	font-size:15pt;
+	margin-left:725px;
+}
+#buku{
+	width:250px;
+	height:100px;
+	background-color:green;
+	color:white;
+	font-family:comic sans ms;
+	text-align:center;
+	padding-top:75px;
+	margin-top:-50px;
+	border-radius:25%;
+	font-size:15pt;
+	margin-left:38%;
+	margin-bottom:15px;
+}
