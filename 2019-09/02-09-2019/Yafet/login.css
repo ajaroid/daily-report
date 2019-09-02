@@ -1,0 +1,46 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("background-login.png");
+	background-size: auto;
+	font-family:comic sans ms;
+	background-repeat: no-repeat;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+#halaman{
+	background-color:black;
+	width:500px;
+	height:250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	border:5px white double;
+	border-radius: 30px;
+}
+.content{
+	color:white;
+}
+.judul-content{
+	text-align:center;
+	padding-bottom:5px;
+	border-bottom: 2px white double;
+}
+.isi-content{
+	padding-left: 125px;
+	padding-top: 40px;
+}
+.button{
+	background-color: limegreen;
+	border:none;
+	padding-top:2px;
+	padding-bottom:2px;
+	border-radius:5px;
+}
+.btn{
+	padding-left:30px;
+	color:white;
+	font-size:12px;
+}

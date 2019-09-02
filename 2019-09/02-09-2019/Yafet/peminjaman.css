@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	padding:0;
+}
+#header{
+	text-align:center;
+	font-size:30px;
+	width:100%;
+	border-bottom:1px double black;
+}
+#content{
+	border:1px solid black;
+	height:375px;
+	width:300px;
+	margin-left:150px;
+	padding-top:10px;
+	text-align:right;
+	padding-right:30px;
+	padding-bottom:30px;
+	margin-top:40px;
+	float:left;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+#operasi{
+	float:right;
+	margin-top: 10px;
+	margin-right:50px;
+}
+.title-form{
+	text-align: center;
+	margin-left:50px;
+}
+.buku{
+	float:left;
+	margin-left:10px;
+	margin-top:45px;
+}
+tr,td{
+	text-align: center;
+	width:500px;
+}
+#input-id{
+	margin-left:150px;
+	margin-top:25px;
+	padding-left:10px;
+}
+.pinjam{
+	margin-top: 20px;
+	margin-right:50px;
+	float: right;
+}
